@@ -84,7 +84,10 @@
 /***********media quiery********************/
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 767) { 
+@media (max-width: 768) { 
 
+    .mid-nav{
+        display: inline-block;
+    }
 
  }

@@ -12,7 +12,7 @@ function NavBar() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
-                        <div className="col-md-4 col-lg-4">
+                        <div className="col-md-4 col-sm-5 col-lg-4">
                         <ul className="navbar-nav me-auto mb-2 mb-md-0">
                             <li className="nav-item">
                                 <a className="btn d-none d-md-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
@@ -21,7 +21,7 @@ function NavBar() {
                             </li>
                         </ul>
                         </div>
-                       <div className="mid-nav col-md-4 col-lg-4">
+                       <div className="mid-nav col-md-4 col-sm-5 col-lg-4">
                        <ul className="navbar-nav mb-2 mb-md-0 d-none d-sm-block">
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">
@@ -30,7 +30,7 @@ function NavBar() {
                             </li>
                         </ul>
                        </div>
-                       <div className="right-nav col-md-4 col-lg-4">
+                       <div className="right-nav col-md-4 col-sm-2 col-lg-4">
                        <ul className="navbar-nav d-flex ms-auto mb-2 mb-md-0">
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">
