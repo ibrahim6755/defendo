@@ -33,12 +33,12 @@ function NavBar() {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">
-                                <i className="bi bi-search fs-3"></i>
+                                <i className="bi bi-search fs-4"></i>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">
-                                <i className="bi bi-bag fs-3"></i>
+                                <i className="bi bi-bag fs-4"></i>
                                 </a>
                             </li>
                         </ul>
