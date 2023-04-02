@@ -14,4 +14,6 @@
 .announcement-bar-wrapper p a {
     text-decoration: none;
     color: #fff;
+    font-size: inherit;
+    letter-spacing: 1.5px;
 }

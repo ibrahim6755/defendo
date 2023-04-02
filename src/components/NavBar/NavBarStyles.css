@@ -1,0 +1,11 @@
+.nav-bar-wrapper .navbar{
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-bar-wrapper .navbar a {
+    padding: 0 ;
+    
+}
