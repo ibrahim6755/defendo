@@ -48,14 +48,28 @@ function NavBar() {
             <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
             >
                 <div className="offcanvas-header">
-                    <h5 className="offcanvas-title" id="offcanvasExampleLabel">
-                        Offcanvas
-                    </h5>
                     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div className="offcanvas-body">
-                    Some text as placeholder. In real life you can have the elements you
-                    have chosen. Like, text, images, lists, etc.
+                   <a className='py-5' href="">Home</a>
+                   <hr />
+                   <a className='py-5' href="">NEW RELEASES</a>
+                   <hr />
+                  <div className="shop"> <a href="">SHOP BY CATEGORY</a> <a href=""><i class="bi bi-plus-lg fs-6"></i></a></div>
+                   <hr />
+                   <a className='py-5' href="">EXTRAS</a>
+                   <hr />
+                   <a className='py-5' href="">COMING SOON</a>
+                   <hr />
+                  <div className="about">
+                  <a className='d-block my-4' href="">Contact Us</a>
+                   <a className='d-block my-4' href="">FAQs</a>
+                   <a className='d-block my-4' href="">Warranty Coverage</a>
+                   <a className='d-block my-4' href="">Returns & Refunds</a>
+                   <a className='d-block my-4' href="">Account</a>
+
+                  </div>
+
                 </div>
             </div>
         </div>
