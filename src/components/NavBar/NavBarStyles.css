@@ -1,7 +1,21 @@
 .nav-bar-wrapper {
     background-color: #fff;
 }
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.right-nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.mid-nav {
+    display: flex;
+    justify-content: center;
+}
 .nav-bar-wrapper .navbar {
     padding: 0 18px;
     display: flex;
@@ -66,3 +80,11 @@
 .social-media i{
     color: rgba(48, 48, 48, 0.5);
 }
+
+/***********media quiery********************/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 767) { 
+
+
+ }
