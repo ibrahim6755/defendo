@@ -14,7 +14,7 @@ function NavBar() {
                         <ul className="navbar-nav me-auto mb-2 mb-md-0">
                             <li className="nav-item">
                                 <a className="btn d-none d-md-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
-                                <i className="bi bi-list text-dark fs-2"></i>
+                                    <i className="bi bi-list text-dark fs-2"></i>
                                 </a>
                             </li>
                         </ul>
@@ -28,17 +28,17 @@ function NavBar() {
                         <ul className="navbar-nav d-flex ms-auto mb-2 mb-md-0">
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">
-                                <i className="bi bi-person fs-3 fw-bold"></i>
+                                    <i className="bi bi-person fs-3 fw-bold"></i>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">
-                                <i className="bi bi-search fs-4"></i>
+                                    <i className="bi bi-search fs-4"></i>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">
-                                <i className="bi bi-bag fs-4"></i>
+                                    <i className="bi bi-bag fs-4"></i>
                                 </a>
                             </li>
                         </ul>
@@ -51,25 +51,31 @@ function NavBar() {
                     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div className="offcanvas-body">
-                   <a className='py-5' href="">Home</a>
-                   <hr />
-                   <a className='py-5' href="">NEW RELEASES</a>
-                   <hr />
-                  <div className="shop"> <a href="">SHOP BY CATEGORY</a> <a href=""><i class="bi bi-plus-lg fs-6"></i></a></div>
-                   <hr />
-                   <a className='py-5' href="">EXTRAS</a>
-                   <hr />
-                   <a className='py-5' href="">COMING SOON</a>
-                   <hr />
-                  <div className="about">
-                  <a className='d-block my-4' href="">Contact Us</a>
-                   <a className='d-block my-4' href="">FAQs</a>
-                   <a className='d-block my-4' href="">Warranty Coverage</a>
-                   <a className='d-block my-4' href="">Returns & Refunds</a>
-                   <a className='d-block my-4' href="">Account</a>
-
-                  </div>
-
+                    <a className='py-5' href="">Home</a>
+                    <hr />
+                    <a className='py-5' href="">NEW RELEASES</a>
+                    <hr />
+                    <div className="shop"> <a href="">SHOP BY CATEGORY</a> <a href=""><i class="bi bi-plus-lg fs-6"></i></a></div>
+                    <hr />
+                    <a className='py-5' href="">EXTRAS</a>
+                    <hr />
+                    <a className='py-5' href="">COMING SOON</a>
+                    <hr />
+                    <div className="about ">
+                        <a className='d-block my-4' href="">Contact Us</a>
+                        <a className='d-block my-4' href="">FAQs</a>
+                        <a className='d-block my-4' href="">Warranty Coverage</a>
+                        <a className='d-block my-4' href="">Returns & Refunds</a>
+                        <a className='d-block my-4' href="">Account</a>
+                    </div>
+                </div>
+                <div className="offcanvas-footer">
+                    <hr />
+                    <div className="social-media">
+                        <a href=""><i class="bi bi-facebook fs-6"></i></a>
+                        <a href=""><i class="bi bi-instagram fs-6"></i></a>
+                        <a href=""><i class="bi bi-tiktok fs-6"></i></a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -40,11 +40,29 @@
 .offcanvas {
     width: 340px !important;
 }
-.about a{
+
+.about {
+    margin-bottom: 20%;
+}
+.about a {
     color: rgba(48, 48, 48, 0.5);
     text-transform: none;
 }
-.about a:hover{
+
+.about a:hover {
     color: #000;
     transition: 0.5s;
+}
+.offcanvas-footer{
+    width: 100% !important;
+    padding: 14px 0;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+.social-media i{
+    color: rgba(48, 48, 48, 0.5);
 }
