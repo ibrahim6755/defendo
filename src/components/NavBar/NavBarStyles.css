@@ -6,22 +6,31 @@
     align-items: center;
     justify-content: space-between;
 }
-
-.right-nav {
+.right-nav{
     display: flex;
     align-items: center;
     justify-content: end;
+
+}
+.right-nav-ul{
+    display: flex !important;
+    align-items: center;
 }
 .mid-nav {
     display: flex;
     justify-content: center;
+    justify-content:center ;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 .nav-bar-wrapper .navbar {
     padding: 0 18px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .nav-bar-wrapper .navbar a {
@@ -81,13 +90,18 @@
     color: rgba(48, 48, 48, 0.5);
 }
 
+
+.text-decor{
+    text-decoration: none;
+}
+.list-style-none{
+    list-style-type: none;
+}
+
 /***********media quiery********************/
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 768) { 
 
-    .mid-nav{
-        display: inline-block;
-    }
 
  }

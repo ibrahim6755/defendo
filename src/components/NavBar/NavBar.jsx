@@ -5,53 +5,49 @@ import brandlogo from '../../imgs/brand-logo.png';
 function NavBar() {
     return (
         <div className="nav-bar-wrapper">
-           <div className="row px-5">
-           <nav className="navbar navbar-expand-md  ">
-                <div className="container-fluid">
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarCollapse">
-                        <div className="col-md-4 col-sm-5 col-lg-4">
-                        <ul className="navbar-nav me-auto mb-2 mb-md-0">
-                            <li className="nav-item">
-                                <a className="btn d-none d-md-block" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
+            <div className="row">
+                <div className="container-fluid d-flex">
+                    <div className="col-md-4 col-sm-3 left-nav">
+                        <ul className=" mb-2 mb-md-0">
+                            <li className='list-style-none'>
+                                <a className="btn d-none d-md-block text-decor" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
                                     <i className="bi bi-list text-dark fs-2"></i>
                                 </a>
                             </li>
                         </ul>
-                        </div>
-                       <div className="mid-nav col-md-4 col-sm-5 col-lg-4">
-                       <ul className="navbar-nav mb-2 mb-md-0 d-none d-sm-block">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">
+                    </div>
+                    <div className="mid-nav col-md-4 col-sm-5">
+                        <ul className=" mb-2 mb-md-0 d-none d-sm-block">
+                            <li className='list-style-none'>
+                                <a className='text-decor' aria-current="page" href="#">
                                     <img className="ps-5" src={brandlogo} alt="Brand Logo" />
                                 </a>
                             </li>
                         </ul>
-                       </div>
-                       <div className="right-nav col-md-4 col-sm-2 col-lg-4">
-                       <ul className="navbar-nav d-flex ms-auto mb-2 mb-md-0">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">
-                                    <i className="bi bi-person fs-3 fw-bold"></i>
+                    </div>
+                    <div className="right-nav col-md-4 col-sm-4 me-4">
+                        <ul className=" right-nav-ul me-3 mb-2 mb-md-0">
+                            <li className='list-style-none mx-2'>
+                                <a className='text-decor' aria-current="page" href="#">
+                                    <i className="bi bi-person fs-2 fw-bold text-dark"></i>
                                 </a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">
-                                    <i className="bi bi-search fs-4"></i>
+                            <li className='list-style-none mx-2'>
+                                <a className='text-decor' aria-current="page" href="#">
+                                    <i className="bi bi-search fs-4 fw-bold text-dark"></i>
                                 </a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">
-                                    <i className="bi bi-bag fs-4"></i>
+                            <li className='list-style-none mx-2'>
+                                <a className="text-decor" aria-current="page" href="#">
+                                    <i className="bi bi-bag fs-4 fw-bold text-dark"></i>
                                 </a>
                             </li>
                         </ul>
-                       </div>
                     </div>
+
                 </div>
-            </nav>
+
+            </div>
             <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
             >
                 <div className="offcanvas-header">
@@ -84,8 +80,9 @@ function NavBar() {
                         <a href=""><i class="bi bi-tiktok fs-6"></i></a>
                     </div>
                 </div>
+
+
             </div>
-           </div>
         </div>
     )
 }
