@@ -5,27 +5,27 @@ import brandlogo from '../../imgs/brand-logo.png';
 function NavBar() {
     return (
         <div className="nav-bar-wrapper">
-            <div className="row">
+            <div className="row mb-2">
                 <div className="container-fluid d-flex">
-                    <div className="col-md-4 col-sm-3 left-nav">
+                    <div className="col-md-4  left-nav">
                         <ul className=" mb-2 mb-md-0">
                             <li className='list-style-none'>
-                                <a className="btn d-none d-md-block text-decor" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
+                                <a className="btn  d-md-block text-decor" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
                                     <i className="bi bi-list text-dark fs-2"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div className="mid-nav col-md-4 col-sm-5">
-                        <ul className=" mb-2 mb-md-0 d-none d-sm-block">
+                    <div className="mid-nav col-md-4 ">
+                        <ul className=" mb-2  p-0">
                             <li className='list-style-none'>
                                 <a className='text-decor' aria-current="page" href="#">
-                                    <img className="ps-5" src={brandlogo} alt="Brand Logo" />
+                                    <img className="" src={brandlogo} alt="Brand Logo" />
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div className="right-nav col-md-4 col-sm-4 me-4">
+                    <div className="right-nav col-md-4 me-4">
                         <ul className=" right-nav-ul me-3 mb-2 mb-md-0">
                             <li className='list-style-none mx-2'>
                                 <a className='text-decor' aria-current="page" href="#">
@@ -37,9 +37,9 @@ function NavBar() {
                                     <i className="bi bi-search fs-4 fw-bold text-dark"></i>
                                 </a>
                             </li>
-                            <li className='list-style-none mx-2'>
+                            <li className='list-style-none mx-2 cart'>
                                 <a className="text-decor" aria-current="page" href="#">
-                                    <i className="bi bi-bag fs-4 fw-bold text-dark"></i>
+                                    <i className="bi bi-bag fs-4 fw-bold text-dark "></i>
                                 </a>
                             </li>
                         </ul>
