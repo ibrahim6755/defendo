@@ -5,7 +5,7 @@ import brandlogo from '../../imgs/brand-logo.png';
 function NavBar() {
     return (
         <div className="nav-bar-wrapper">
-            <div className="row mb-2">
+            <div className="row mb-0">
                 <div className="container-fluid d-flex">
                     <div className="col-md-4  left-nav">
                         <ul className=" mb-2 mb-md-0">

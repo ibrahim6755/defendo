@@ -1,5 +1,5 @@
 import React from 'react'
-import './announcementBarStyles.css'
+import './AnnouncementBarStyles.css'
 
 function AnnouncementBar() {
     return (
