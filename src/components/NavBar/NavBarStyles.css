@@ -156,7 +156,7 @@
     }
 
     .mid-nav ul li img {
-        width: 100%;
+        width: 185px !important;
     }
 
     .offcanvas {
