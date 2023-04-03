@@ -6,9 +6,9 @@ function NavBar() {
     return (
         <div className="nav-bar-wrapper">
             <div className="row mb-0">
-                <div className="container-fluid d-flex">
+                <div className="container-fluid p-0">
                     <div className="col-md-4  left-nav">
-                        <ul className=" mb-2 mb-md-0">
+                        <ul className=" mb-md-0">
                             <li className='list-style-none'>
                                 <a className="btn  d-md-block text-decor" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
                                     <i className="bi bi-list text-dark fs-2"></i>
@@ -17,15 +17,15 @@ function NavBar() {
                         </ul>
                     </div>
                     <div className="mid-nav col-md-4 ">
-                        <ul className=" mb-2  p-0">
+                        <ul className="p-0">
                             <li className='list-style-none'>
                                 <a className='text-decor' aria-current="page" href="#">
-                                    <img className="" src={brandlogo} alt="Brand Logo" />
+                                    <img className=" pt-3" src={brandlogo} alt="Brand Logo" />
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div className="right-nav col-md-4 me-4">
+                    <div className="right-nav col-md-4 pe-2">
                         <ul className=" right-nav-ul me-3 mb-2 mb-md-0">
                             <li className='list-style-none mx-2 person'>
                                 <a className='text-decor' aria-current="page" href="#">
