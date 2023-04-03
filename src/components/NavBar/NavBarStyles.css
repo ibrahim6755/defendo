@@ -120,15 +120,78 @@
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media only screen and (max-width: 544.98px) {
-    .mid-nav  {
+@media only screen and (max-width: 400.98px) {
+    .right-nav {
+        margin: 0 !important;
+    }
+
+    .right-nav ul {
+        padding: 0 !important;
+    }
+
+    .right-nav ul li.person {
+        margin: 4px !important;
+    }
+
+    .right-nav ul li.search {
+        margin: 4px !important;
+    }
+
+    .right-nav ul li.cart {
+        display: none !important;
+    }
+
+    .left-nav ul {
+        padding: 0 !important;
+    }
+
+    .mid-nav {
         display: flex !important;
-        align-items:center ;
-        justify-content: flex-end;
+        align-items: center;
+        justify-content: end;
+        margin-left: 10%;
+        width: 100%;
+    }
+
+    .mid-nav ul li img {
+        width: 100%;
+    }
+
+    .offcanvas {
+        width: 100%;
+        max-width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 544.98px) {
+    .right-nav {
+        padding: 0 !important;
+    }
+
+    .mid-nav {
+        display: flex !important;
+        align-items: center;
+        justify-content: end;
         margin-left: 10%;
     }
-    .mid-nav ul li img{
+
+    .mid-nav ul li img {
         width: 100%;
+    }
+
+    .offcanvas {
+        width: 100%;
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600.98px) {
+    .mid-nav {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+        margin-left: 10%;
     }
 
     .offcanvas {

@@ -27,12 +27,12 @@ function NavBar() {
                     </div>
                     <div className="right-nav col-md-4 me-4">
                         <ul className=" right-nav-ul me-3 mb-2 mb-md-0">
-                            <li className='list-style-none mx-2'>
+                            <li className='list-style-none mx-2 person'>
                                 <a className='text-decor' aria-current="page" href="#">
                                     <i className="bi bi-person fs-2 fw-bold text-dark"></i>
                                 </a>
                             </li>
-                            <li className='list-style-none mx-2'>
+                            <li className='list-style-none mx-2 search'>
                                 <a className='text-decor' aria-current="page" href="#">
                                     <i className="bi bi-search fs-4 fw-bold text-dark"></i>
                                 </a>
