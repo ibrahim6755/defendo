@@ -1,12 +1,14 @@
 .nav-bar-wrapper {
     background-color: #fff;
 }
-.container-fluid{
+
+.container-fluid {
     height: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .row {
     display: flex;
     align-items: center;
@@ -31,6 +33,7 @@
     justify-content: center;
     justify-content: center;
 }
+
 .left-nav {
     display: flex;
     justify-content: flex-start;

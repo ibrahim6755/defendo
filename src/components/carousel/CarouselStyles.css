@@ -1,0 +1,21 @@
+.carousel-inner img{
+    height: 90vh;
+    transition: 1s;
+    animation-name: ease-in;
+}
+.carousel-inner .btn{
+    border: none;
+    border-radius: none;
+    transition: 1s;
+    outline: none;
+    background-color: #fff;
+    font-family: Varela, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 28px;
+
+}
