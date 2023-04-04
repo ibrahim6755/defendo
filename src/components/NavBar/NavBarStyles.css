@@ -80,16 +80,7 @@
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
 }
-.category{
-    text-decoration: none;
-    color: #303030;
-    font-size: 12px;
-    letter-spacing: .2em;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
 
-}
 .offcanvas-body .about {
     margin-bottom: 20%;
 }
@@ -119,21 +110,35 @@
 .offcanvas-footer .social-media i {
     color: rgba(48, 48, 48, 0.5);
 }
-.dropdown button{
+
+.dropdown button {
     border: none;
     background-color: #fff;
     outline: none;
 }
-.dropdown-menu li{
+
+.dropdown-menu li {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 3px 8px;
 }
-.shop-cat{
+
+.shop-cat {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.category {
+    text-decoration: none;
+    color: #303030;
+    font-size: 12px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 /********************generic classes****************************/
@@ -145,45 +150,52 @@
 .list-style-none {
     list-style-type: none;
 }
-.padding-0{
+
+.padding-0 {
     padding: 0 !important;
 }
-.border{
+
+.border {
     border: none !important;
     outline: none;
 }
 
 /***********media quiery********************/
 @media (max-width: 575.98px) {
-    .left-nav{
+    .left-nav {
         width: 20%;
     }
-    .mid-nav{
+
+    .mid-nav {
         width: 40%;
     }
+
     .right-nav ul {
         display: none;
     }
-    .right-nav .dropdown{
+
+    .right-nav .dropdown {
         display: block !important;
     }
-   
+
 }
 
 @media (max-width: 767.98px) {
-    .left-nav{
+    .left-nav {
         display: flex;
         align-items: center;
         width: 33.33%;
         justify-content: flex-start;
     }
-    .mid-nav{
+
+    .mid-nav {
         width: 33.33%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .right-nav{
+
+    .right-nav {
         width: 33.33%;
         display: flex;
         align-items: center;
