@@ -11,7 +11,7 @@ function NavBar() {
                         <ul className=" mb-md-0">
                             <li className='list-style-none'>
                                 <a className="btn  d-md-block text-decor" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
-                                    <i className="bi bi-list text-dark fs-2"></i>
+                                    <i className="bi bi-list text-dark fs-4"></i>
                                 </a>
                             </li>
                         </ul>
@@ -29,16 +29,16 @@ function NavBar() {
                         <ul className=" right-nav-ul me-3 mb-2 mb-md-0">
                             <li className='list-style-none mx-2 person'>
                                 <a className='text-decor' aria-current="page" href="#">
-                                    <i className="bi bi-person fs-2 fw-bold text-dark"></i>
+                                    <i className="bi bi-person fs-3 fw-bold text-dark"></i>
                                 </a>
                             </li>
                             <li className='list-style-none mx-2 search'>
                                 <a className='text-decor' aria-current="page" href="#">
-                                    <i className="bi bi-search fs-4 fw-bold text-dark"></i>
+                                    <i className="bi bi-search fs-5 fw-bold text-dark"></i>
                                 </a>
                             </li>
                             <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-                                <i className="bi bi-bag fs-4 fw-bold text-dark "></i>
+                                <i className="bi bi-bag fs-5 fw-bold text-dark "></i>
                             </button>
 
                             <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
