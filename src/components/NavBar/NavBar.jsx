@@ -97,18 +97,18 @@ function NavBar() {
                 <div className="offcanvas-header mb-4">
                     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div className="offcanvas-body my-0 py-3">
-                    <a className='py-4' href="">Home</a>
+                <div className="offcanvas-body m-0  py-5 px-4">
+                    <a className='py-5 ' href="">Home</a>
                     <hr />
-                    <a className='py-4' href="">NEW RELEASES</a>
+                    <a className='py-5 ' href="">NEW RELEASES</a>
                     <hr />
                     <div className="shop"> <a href="">SHOP BY CATEGORY</a> <a href=""><i class="bi bi-plus-lg fs-6"></i></a></div>
                     <hr />
-                    <a className='py-4' href="">EXTRAS</a>
+                    <a className='py-5 ' href="">EXTRAS</a>
                     <hr />
-                    <a className='py-4' href="">COMING SOON</a>
+                    <a className='py-5 ' href="">COMING SOON</a>
                     <hr />
-                    <div className="about ">
+                    <div className="about mt-4">
                         <a className='d-block my-3' href="">Contact Us</a>
                         <a className='d-block my-3' href="">FAQs</a>
                         <a className='d-block my-3' href="">Warranty Coverage</a>
