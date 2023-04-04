@@ -67,15 +67,15 @@ function NavBar() {
                                 <i className="bi bi-search fs-5 fw-bold text-dark"></i>
                             </a>
                         </li>
-                        <li className='list-style-none mx-2 search'>
-                            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                        <li className='list-style-none mx-2 search '>
+                            <button class="btn p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                                 <i className="bi bi-bag fs-5 fw-bold text-dark "></i>
                             </button>
 
                             <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                                 <div class="offcanvas-header pb-1">
                                     <h2 class="offcanvas-title" id="staticBackdropLabel">cart</h2>
-                                    <button type="button p-0" class="btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    <button type="button" class="btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <hr />
                                 <div class="offcanvas-body">
