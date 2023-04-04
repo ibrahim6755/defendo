@@ -59,17 +59,17 @@ function NavBar() {
                     <ul class="dropdown-menu">
                         <li className='list-style-none mx-2 person'>
                             <a className='text-decor' aria-current="page" href="#">
-                                <i className="bi bi-person fs-3 fw-bold text-dark"></i>
+                                <i className="bi bi-person fs-3 fw-bold text-dark"><span className='ms-1'>Account</span></i>
                             </a>
                         </li>
                         <li className='list-style-none mx-2 search'>
                             <a className='text-decor' aria-current="page" href="#">
-                                <i className="bi bi-search fs-5 fw-bold text-dark"></i>
+                                <i className="bi bi-search fs-5 fw-bold text-dark"><span className='ms-1'>Search</span></i>
                             </a>
                         </li>
-                        <li className='list-style-none mx-2 search '>
+                        <li className='list-style-none mx-2 cart '>
                             <button class="btn p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-                                <i className="bi bi-bag fs-5 fw-bold text-dark "></i>
+                                <i className="bi bi-bag fs-5 fw-bold text-dark "><span className='ms-2'>Cart</span></i>
                             </button>
 
                             <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
