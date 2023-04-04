@@ -61,26 +61,26 @@ function NavBar() {
             </div>
             <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
             >
-                <div className="offcanvas-header">
+                <div className="offcanvas-header mb-4">
                     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div className="offcanvas-body">
-                    <a className='py-5' href="">Home</a>
+                <div className="offcanvas-body my-0 py-3">
+                    <a className='py-4' href="">Home</a>
                     <hr />
-                    <a className='py-5' href="">NEW RELEASES</a>
+                    <a className='py-4' href="">NEW RELEASES</a>
                     <hr />
                     <div className="shop"> <a href="">SHOP BY CATEGORY</a> <a href=""><i class="bi bi-plus-lg fs-6"></i></a></div>
                     <hr />
-                    <a className='py-5' href="">EXTRAS</a>
+                    <a className='py-4' href="">EXTRAS</a>
                     <hr />
-                    <a className='py-5' href="">COMING SOON</a>
+                    <a className='py-4' href="">COMING SOON</a>
                     <hr />
                     <div className="about ">
-                        <a className='d-block my-4' href="">Contact Us</a>
-                        <a className='d-block my-4' href="">FAQs</a>
-                        <a className='d-block my-4' href="">Warranty Coverage</a>
-                        <a className='d-block my-4' href="">Returns & Refunds</a>
-                        <a className='d-block my-4' href="">Account</a>
+                        <a className='d-block my-3' href="">Contact Us</a>
+                        <a className='d-block my-3' href="">FAQs</a>
+                        <a className='d-block my-3' href="">Warranty Coverage</a>
+                        <a className='d-block my-3' href="">Returns & Refunds</a>
+                        <a className='d-block my-3' href="">Account</a>
                     </div>
                 </div>
                 <div className="offcanvas-footer">
