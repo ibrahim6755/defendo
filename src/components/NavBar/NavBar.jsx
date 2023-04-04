@@ -117,8 +117,8 @@ function NavBar() {
                     </div>
                 </div>
                 <div className="offcanvas-footer">
-                    <hr />
-                    <div className="social-media">
+                    <hr className='m-1 w-100'/>
+                    <div className="social-media py-2">
                         <a href=""><i class="bi bi-facebook fs-6"></i></a>
                         <a href=""><i class="bi bi-instagram fs-6"></i></a>
                         <a href=""><i class="bi bi-tiktok fs-6"></i></a>
