@@ -4,7 +4,7 @@ import brandlogo from '../../imgs/brand-logo.png';
 
 function NavBar() {
     return (
-        <div className="nav-bar-wrapper">
+        <div className="nav-bar-wrapper stickey-top">
             <div className="col-md-4  left-nav">
                 <ul className=" mb-md-0">
                     <li className='list-style-none'>
