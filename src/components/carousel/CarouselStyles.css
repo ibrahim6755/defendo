@@ -33,20 +33,21 @@
 // No media query for `xs` since this is the default in Bootstrap */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 450px) {
+@media (max-width: 440.99px) {
   .carousel-inner img.mob{
     display: block !important;
   }
  }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
+@media  (min-width: 441px) and (max-width: 768px) {
   .carousel-inner img.wide{
     display: block !important;
   }
   .carousel-caption .btn{
     padding: 4px 8px ;
     font-size: 12px;
+    margin: 10px 0;
   }
  }
 
