@@ -11,10 +11,9 @@ export default function Carousel() {
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src={mobileCarousel} className={`mob d-none w-100 fade-in ${isImageLoaded ? 'loaded' : ''}`} alt="..." onLoad={() => setIsImageLoaded(true)} />
-                        
-                    <img src={mainCarouselImg} className={` wide w-100 fade-in ${isImageLoaded ? 'loaded' : ''}`} alt="..." onLoad={() => setIsImageLoaded(true)} />
-
+                   <div className="mob"> <img src={mobileCarousel} className={` d-none w-100 fade-in ${isImageLoaded ? 'loaded' : ''}`} alt="..." onLoad={() => setIsImageLoaded(true)} /></div>
+                    <div className="wide"><img src={mainCarouselImg} className={`d-lg-block  w-100 fade-in ${isImageLoaded ? 'loaded' : ''}`} alt="..." onLoad={() => setIsImageLoaded(true)} />
+</div>
                         <div class="carousel-caption d-md-block">
                             <div className="btn text-dark text-uppercase mx-2">shop new releases</div>
                             <div className="btn text-dark text-uppercase mx-2">925 silver </div>
