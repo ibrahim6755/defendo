@@ -102,21 +102,19 @@ function NavBar() {
                     <hr />
                     <a className='py-5 ' href="">NEW RELEASES</a>
                     <hr />
-                            <a class="btn d-block p-0" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                               <div className="shop-cat"><div className="category">SHOP BY CATEGORY</div> <div className="icon"><i class="bi bi-plus-lg fs-6"></i></div></div>
-                            </a>
-                        <div class="collapse " id="collapseExample">
-                            <div class="card card-body border p-0">
-                                <div className="about mb-0 px-3">
-                                    <a className='d-block my-1 py-2 text-uppercase' href=""> chains</a>
-                                    <a className='d-block my-1 py-2 text-uppercase' href="">pendants</a>
-                                    <a className='d-block my-1 py-2 text-uppercase' href=""> rings</a>
-                                    <a className='d-block my-1 py-2 text-uppercase' href="">bracelets</a>
-                                </div>
+                    <button class="accordion-button d-block" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div className="shop-cat"><div className="category ">SHOP BY CATEGORY</div><div className="icon"><i class="bi bi-plus-lg fs-6"></i></div></div>
+                    </button>
+                    <div class="accordion " id="accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div className="about mb-0 px-3">
+                                <a className='d-block my-1 py-2 text-uppercase' href=""> chains</a>
+                                <a className='d-block my-1 py-2 text-uppercase' href="">pendants</a>
+                                <a className='d-block my-1 py-2 text-uppercase' href=""> rings</a>
+                                <a className='d-block my-1 py-2 text-uppercase' href=""> bracelets</a>
                             </div>
                         </div>
-
-                    
+                    </div>
                     <hr />
                     <a className='py-5 ' href="">EXTRAS</a>
                     <hr />

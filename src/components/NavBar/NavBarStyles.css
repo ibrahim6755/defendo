@@ -74,14 +74,22 @@
 .offcanvas-body a {
     text-decoration: none;
     color: #303030;
-    ;
     font-size: 12px;
     letter-spacing: .2em;
     text-transform: uppercase;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
 }
+.category{
+    text-decoration: none;
+    color: #303030;
+    font-size: 12px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 
+}
 .offcanvas-body .about {
     margin-bottom: 20%;
 }
