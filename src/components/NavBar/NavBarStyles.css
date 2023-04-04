@@ -116,6 +116,17 @@
 .offcanvas-footer .social-media i {
     color: rgba(48, 48, 48, 0.5);
 }
+.dropdown button{
+    border: none;
+    background-color: #fff;
+    outline: none;
+}
+.dropdown-menu li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 3px 8px;
+}
 
 /********************generic classes****************************/
 
@@ -126,9 +137,24 @@
 .list-style-none {
     list-style-type: none;
 }
+.p-0{
+    padding: 0;
+}
 
 /***********media quiery********************/
 @media (max-width: 575.98px) {
+    .left-nav{
+        width: 20%;
+    }
+    .mid-nav{
+        width: 40%;
+    }
+    .right-nav ul {
+        display: none;
+    }
+    .right-nav .dropdown{
+        display: block !important;
+    }
    
 }
 
