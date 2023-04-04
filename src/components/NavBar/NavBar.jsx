@@ -102,7 +102,21 @@ function NavBar() {
                     <hr />
                     <a className='py-5 ' href="">NEW RELEASES</a>
                     <hr />
-                    <div className="shop"> <a href="">SHOP BY CATEGORY</a> <a href=""><i class="bi bi-plus-lg fs-6"></i></a></div>
+                            <a class="btn d-block p-0" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                               <div className="shop-cat"><div className="category">SHOP BY CATEGORY</div> <div className="icon"><i class="bi bi-plus-lg fs-6"></i></div></div>
+                            </a>
+                        <div class="collapse " id="collapseExample">
+                            <div class="card card-body border p-0">
+                                <div className="about mb-0 px-3">
+                                    <a className='d-block my-1 py-2 text-uppercase' href=""> chains</a>
+                                    <a className='d-block my-1 py-2 text-uppercase' href="">pendants</a>
+                                    <a className='d-block my-1 py-2 text-uppercase' href=""> rings</a>
+                                    <a className='d-block my-1 py-2 text-uppercase' href="">bracelets</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    
                     <hr />
                     <a className='py-5 ' href="">EXTRAS</a>
                     <hr />
@@ -117,7 +131,7 @@ function NavBar() {
                     </div>
                 </div>
                 <div className="offcanvas-footer">
-                    <hr className='m-1 w-100'/>
+                    <hr className='m-1 w-100' />
                     <div className="social-media py-2">
                         <a href=""><i class="bi bi-facebook fs-6"></i></a>
                         <a href=""><i class="bi bi-instagram fs-6"></i></a>
