@@ -5,8 +5,8 @@ import brandlogo from '../../imgs/brand-logo.png';
 function NavBar() {
     return (
         <div className="nav-bar-wrapper">
-            <div className="row mb-0">
-                <div className="container-fluid p-0">
+            
+               
                     <div className="col-md-4  left-nav">
                         <ul className=" mb-md-0">
                             <li className='list-style-none'>
@@ -16,11 +16,11 @@ function NavBar() {
                             </li>
                         </ul>
                     </div>
-                    <div className="mid-nav col-md-4 ">
+                    <div className="mid-nav col-md-4 p-0 ">
                         <ul className="p-0">
                             <li className='list-style-none'>
                                 <a className='text-decor' aria-current="page" href="#">
-                                    <img className=" pt-3" src={brandlogo} alt="Brand Logo" />
+                                    <h1 className='brand-text m-0'>DEFENDO</h1>
                                 </a>
                             </li>
                         </ul>
@@ -56,9 +56,9 @@ function NavBar() {
                         </ul>
                     </div>
 
-                </div>
+                
 
-            </div>
+            
             <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
             >
                 <div className="offcanvas-header mb-4">
