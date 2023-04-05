@@ -168,6 +168,12 @@
     border: none !important;
     outline: none;
 }
+.bgWhite{
+    background-color: #fff;
+}
+.bg-body-tertiary{
+    --bs-bg-opacity: none;
+}
 
 /***********media quiery********************/
 @media (max-width: 575.98px) {

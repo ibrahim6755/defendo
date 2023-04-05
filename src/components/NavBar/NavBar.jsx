@@ -4,7 +4,7 @@ import brandlogo from '../../imgs/brand-logo.png';
 
 function NavBar() {
     return (
-        <div className="nav-bar-wrapper stickey-top">
+        <div className="nav-bar-wrapper sticky-top bg-body-tertiary">
             <div className="col-md-4  left-nav">
                 <ul className=" mb-md-0">
                     <li className='list-style-none'>
@@ -53,8 +53,8 @@ function NavBar() {
                     </div>
                 </ul>
                 <div className="dropdown d-none">
-                    <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i className="bi bi-gear fs-5"></i>
+                    <button className="dropdown-toggle fs-3 " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    
                     </button>
                     <ul className="dropdown-menu">
                         <li className='list-style-none mx-2 person'>
