@@ -42,34 +42,16 @@
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
-/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 332px) {
+  .carousel-caption  {
+    margin: 16px 15px !important;
+  }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
   .carousel-caption .btn {
-    padding: 4px 8px;
-    font-size: 12px;
-    margin: 10px 0;
+    padding: 2px 2px ;
+    font-size: 12px !important;
+    margin: 12px 0 !important;
   }
+
 }
 
-/* // Large devices (desktops, 992px and up) */
-@media (max-width: 992px) {
-  .carousel-inner .wide img {
-    display: none !important;
-  }
-}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {
-  .carousel-inner .wide img {
-    display: block !important;
-  }
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (max-width: 1400px) {
-  .carousel-inner .wide img {
-    display: block !important;
-  }
-}
