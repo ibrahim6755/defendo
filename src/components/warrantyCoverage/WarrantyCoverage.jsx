@@ -13,6 +13,10 @@ function WarrantyCoverage() {
                     <p> Our jewellery is water, heat, sweat resistant, so there is no discolouring or tarnishing under any
                         circumstances. If you start
                         to see any discoloring or tarnishing, we will replace the piece free of charge.</p>
+
+                        <div className="read-more">
+                            <a href="" className='text-center text-white text-decor'>Read More</a>
+                        </div>
                 </div>
             </div>
         </div>
