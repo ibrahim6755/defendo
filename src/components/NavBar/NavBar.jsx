@@ -106,7 +106,7 @@ function NavBar() {
                         <div className="shop-cat"><div className="category ">SHOP BY CATEGORY</div><div className="icon"><i className="bi bi-plus-lg fs-6"></i></div></div>
                     </button>
                     <div className="accordion " id="accordionExample">
-                        <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" className="accordion-collapse collapse " data-bs-parent="#accordionExample">
                             <div className="about mb-0 px-3">
                                 <a className='d-block my-1 py-2 text-uppercase' href=""> chains</a>
                                 <a className='d-block my-1 py-2 text-uppercase' href="">pendants</a>
