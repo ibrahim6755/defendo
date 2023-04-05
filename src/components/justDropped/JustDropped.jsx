@@ -18,7 +18,7 @@ function JustDropped() {
 
             </div>
             <div className="col-md-6 col-sm-12">
-              <div className="product mx-5">
+              <div className="product mx-5 my-3">
                 <div className="card border-0">
                   <img src={droppedProduct} className="card-img-top" alt="Product Image" />
                   <div className="card-body">

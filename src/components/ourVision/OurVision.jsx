@@ -10,7 +10,7 @@ function OurVision() {
                     <div className="carousel-item active">
                         <img src={ourvisionImg} className="d-block w-100" alt="..." />
                         <div className="overlay"></div>
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-md-block">
                             <h5 className='mb-3'> THE VISION</h5>
                             <p>Based in Karachi, we visualize to change the jewelry industry
                                 in the country forever. Russet pushes jewelry techniques, form and function

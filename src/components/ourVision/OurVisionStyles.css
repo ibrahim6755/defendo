@@ -13,11 +13,11 @@
 }
 
 .our-vision-wrapper .carousel-caption {
-    width: 30%;
+    width: 40%;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
 }
 
 .our-vision-wrapper .carousel-caption h5 {

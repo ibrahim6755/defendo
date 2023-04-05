@@ -1,7 +1,7 @@
 .product-card-cover-wrapper .card .cover-pic img {
     position: relative;
-    width: 420px;
-    height: 400px;
+    width: 95%;
+    height: 480px;
 }
 
 .product-card-cover-wrapper .card-body {
