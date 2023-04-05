@@ -9,7 +9,7 @@ function NavBar() {
                 <ul className=" mb-md-0">
                     <li className='list-style-none'>
                         <a className="btn  d-md-block text-decor" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
-                            <i className="bi bi-list text-dark fs-4"></i>
+                            <i className="bi bi-list text-dark fs-4 fw-bold"></i>
                         </a>
                     </li>
                 </ul>
@@ -39,7 +39,7 @@ function NavBar() {
                         <i className="bi bi-bag fs-5 fw-bold text-dark "></i>
                     </button>
 
-                    <div className="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                    <div className="offcanvas offcanvas-end" data-bs-backdrop="static" tabIndex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                         <div className="offcanvas-header pb-1">
                             <h2 className="offcanvas-title" id="staticBackdropLabel">cart</h2>
                             <button type="button" className="btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -72,7 +72,7 @@ function NavBar() {
                                 <i className="bi bi-bag fs-5 fw-bold text-dark "><span className='ms-2'>Cart</span></i>
                             </button>
 
-                            <div className="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                            <div className="offcanvas offcanvas-start" data-bs-backdrop="static" tabIndex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                                 <div className="offcanvas-header pb-1">
                                     <h2 className="offcanvas-title" id="staticBackdropLabel">cart</h2>
                                     <button type="button" className="btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
