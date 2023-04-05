@@ -1,5 +1,4 @@
 .nav-bar-wrapper {
-    
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -171,9 +170,7 @@
 .bgWhite{
     background-color: #fff;
 }
-.bg-body-tertiary{
-    --bs-bg-opacity: none;
-}
+
 
 /***********media quiery********************/
 @media (max-width: 575.98px) {
