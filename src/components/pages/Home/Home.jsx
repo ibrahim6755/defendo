@@ -5,6 +5,7 @@ import Carousel from '../../carousel/Carousel'
 import JustDropped from '../../justDropped/JustDropped'
 import OurVision from '../../ourVision/OurVision'
 import ProductCategoryRow from '../../productCategories/ProductCategoryRow'
+import WarrantyCoverage from '../../warrantyCoverage/WarrantyCoverage'
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <JustDropped />
       <OurVision />
       <ProductCategoryRow />
+      <WarrantyCoverage/>
     </>
   )
 }
