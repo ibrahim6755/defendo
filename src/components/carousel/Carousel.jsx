@@ -8,14 +8,14 @@ export default function Carousel() {
     return (
 
         <div className="carousel-wrapper">
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
+            <div id="carouselExampleCaptions" className="carousel slide">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
                         <div className="wide">
                             <img src={mainCarousel} className={` d-none d-lg-block  w-100 fade-in ${isImageLoaded ? 'loaded' : ''}`} alt="..." onLoad={() => setIsImageLoaded(true)} />
                             <div className="overlay"></div>
                         </div>
-                        <div class="carousel-caption d-md-block">
+                        <div className="carousel-caption d-md-block">
                             <div className="btn text-light text-uppercase mx-2">shop new releases</div>
                             <div className="btn text-light text-uppercase mx-2">925 silver </div>
 

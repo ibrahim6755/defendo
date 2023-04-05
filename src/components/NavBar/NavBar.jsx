@@ -35,28 +35,28 @@ function NavBar() {
                             <i className="bi bi-search fs-5 fw-bold text-dark"></i>
                         </a>
                     </li>
-                    <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                    <button className="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                         <i className="bi bi-bag fs-5 fw-bold text-dark "></i>
                     </button>
 
-                    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-                        <div class="offcanvas-header pb-1">
-                            <h2 class="offcanvas-title" id="staticBackdropLabel">cart</h2>
-                            <button type="button" class="btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <div className="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                        <div className="offcanvas-header pb-1">
+                            <h2 className="offcanvas-title" id="staticBackdropLabel">cart</h2>
+                            <button type="button" className="btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <hr />
-                        <div class="offcanvas-body">
+                        <div className="offcanvas-body">
                             <div className=' body-text text-center'>
                                 your cart is empty
                             </div>
                         </div>
                     </div>
                 </ul>
-                <div class="dropdown d-none">
-                    <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="bi bi-gear fs-5"></i>
+                <div className="dropdown d-none">
+                    <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i className="bi bi-gear fs-5"></i>
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul className="dropdown-menu">
                         <li className='list-style-none mx-2 person'>
                             <a className='text-decor' aria-current="page" href="#">
                                 <i className="bi bi-person fs-3 fw-bold text-dark"><span className='ms-1'>Account</span></i>
@@ -68,17 +68,17 @@ function NavBar() {
                             </a>
                         </li>
                         <li className='list-style-none mx-2 cart '>
-                            <button class="btn p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                            <button className="btn p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                                 <i className="bi bi-bag fs-5 fw-bold text-dark "><span className='ms-2'>Cart</span></i>
                             </button>
 
-                            <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-                                <div class="offcanvas-header pb-1">
-                                    <h2 class="offcanvas-title" id="staticBackdropLabel">cart</h2>
-                                    <button type="button" class="btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <div className="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                                <div className="offcanvas-header pb-1">
+                                    <h2 className="offcanvas-title" id="staticBackdropLabel">cart</h2>
+                                    <button type="button" className="btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <hr />
-                                <div class="offcanvas-body">
+                                <div className="offcanvas-body">
                                     <div className=' body-text text-center'>
                                         your cart is empty
                                     </div>
@@ -102,11 +102,11 @@ function NavBar() {
                     <hr />
                     <a className='py-5 ' href="">NEW RELEASES</a>
                     <hr />
-                    <button class="accordion-button d-block" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <div className="shop-cat"><div className="category ">SHOP BY CATEGORY</div><div className="icon"><i class="bi bi-plus-lg fs-6"></i></div></div>
+                    <button className="accordion-button d-block" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div className="shop-cat"><div className="category ">SHOP BY CATEGORY</div><div className="icon"><i className="bi bi-plus-lg fs-6"></i></div></div>
                     </button>
-                    <div class="accordion " id="accordionExample">
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div className="accordion " id="accordionExample">
+                        <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                             <div className="about mb-0 px-3">
                                 <a className='d-block my-1 py-2 text-uppercase' href=""> chains</a>
                                 <a className='d-block my-1 py-2 text-uppercase' href="">pendants</a>
@@ -131,9 +131,9 @@ function NavBar() {
                 <div className="offcanvas-footer">
                     <hr className='m-1 w-100' />
                     <div className="social-media py-2">
-                        <a href=""><i class="bi bi-facebook fs-6"></i></a>
-                        <a href=""><i class="bi bi-instagram fs-6"></i></a>
-                        <a href=""><i class="bi bi-tiktok fs-6"></i></a>
+                        <a href=""><i className="bi bi-facebook fs-6"></i></a>
+                        <a href=""><i className="bi bi-instagram fs-6"></i></a>
+                        <a href=""><i className="bi bi-tiktok fs-6"></i></a>
                     </div>
                 </div>
 

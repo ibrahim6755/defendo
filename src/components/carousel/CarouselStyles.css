@@ -5,14 +5,14 @@
 }
 
 
-.carousel-inner img {
+.carousel-wrapper .carousel-inner img {
   position: relative;
   height: 90vh;
   transition: 1s;
   animation-name: ease-in;
 }
 
-.carousel-inner .btn {
+.carousel-wrapper .carousel-inner .btn {
   border: none;
   border-radius: none;
   transition: 1s;

@@ -1,25 +1,26 @@
-.our-vision-wrapper{
-    height: 20vh;
-}
-.overlay{
+.overlay {
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.arousel-inner img{
+
+.our-vision-wrapper .carousel-inner img {
+    height: 500px;
+}
+
+.our-vision-wrapper .carousel-inner {
     position: relative;
 }
-.carousel-inner{
-    position: relative;
-}
-.carousel-caption{
+
+.our-vision-wrapper .carousel-caption {
     width: 30%;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -60%);
 }
-.carousel-caption h5{
+
+.our-vision-wrapper .carousel-caption h5 {
     color: #fff;
     font-size: 20px;
     letter-spacing: .2em;
@@ -27,11 +28,12 @@
     font-family: Varela, sans-serif;
     font-weight: 500;
 }
-.carousel-caption p{
+
+.our-vision-wrapper .carousel-caption p {
     font-size: 13px;
     font-style: normal;
     font-family: Varela, sans-serif;
     font-weight: 400;
     line-height: 1.65;
-    
+
 }
