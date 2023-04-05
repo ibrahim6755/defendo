@@ -12,14 +12,14 @@ export default function Carousel() {
             <div id="carouselExampleCaptions" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className='d-sm-none d-md-none' src={mobileCarousel} alt="" />
-                        <div className="wide">
-                            <img src={mainWideCarousel} className={` d-none d-sm-block w-100 fade-in ${isImageLoaded ? 'loaded' : ''}`} alt="..." onLoad={() => setIsImageLoaded(true)} />
+                        <img className='d-sm-none d-md-none mob w-100' src={mobileCarousel} alt="" />
+                        <div className="">
+                            <img src={mainWideCarousel} className={`wide d-none d-sm-block w-100 fade-in ${isImageLoaded ? 'loaded' : ''}`} alt="..." onLoad={() => setIsImageLoaded(true)} />
                             <div className="overlay"></div>
                         </div>
                         <div className="carousel-caption d-md-block">
-                            <div className="btn text-light text-uppercase mx-2">shop new releases</div>
-                            <div className="btn text-light text-uppercase mx-2">925 silver </div>
+                            <div className="btn text-light text-uppercase mx-2 my-3">shop new releases</div>
+                            <div className="btn text-light text-uppercase mx-2 my-3">925 silver </div>
 
                         </div>
                     </div>
