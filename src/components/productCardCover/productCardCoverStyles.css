@@ -1,0 +1,42 @@
+.product-card-cover-wrapper .card .cover-pic img {
+    position: relative;
+    width: 420px;
+    height: 400px;
+}
+
+.product-card-cover-wrapper .card-body {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.product-card-cover-wrapper .card:hover {
+    background-position: center;
+    background-size: cover;
+    transition: transform .8s cubic-bezier(.215, .61, .355, 1), opacity .8s cubic-bezier(.215, .61, .355, 1);
+}
+
+.product-card-cover-wrapper .card-body h3 {
+    margin-top: 16px;
+    font-size: 22px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+
+
+}
+
+.product-card-cover-wrapper .card-body .btn {
+    margin-top: 16px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    line-height: normal;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0;
+    font-size: smaller;
+    padding: 12px;
+
+
+}
