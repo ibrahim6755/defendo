@@ -37,3 +37,12 @@
     line-height: 1.65;
 
 }
+
+
+/*****************media quiery*************************/
+@media (max-width: 432.98px) {
+    .carousel-caption{
+        width: 60% !important;
+    }
+
+}

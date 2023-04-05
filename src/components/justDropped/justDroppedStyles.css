@@ -1,20 +1,23 @@
-.just-dropped-wrapper{
+.just-dropped-wrapper {
     padding: 80px 0;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.row{
+
+.row {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.just-dropped-wrapper .container .title{
+
+.just-dropped-wrapper .container .title {
     font-size: 12px;
     letter-spacing: .2em;
-    font-family:  'Varela', sans-serif;
+    font-family: 'Varela', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #000;
@@ -22,48 +25,70 @@
     margin-top: -0.325em;
 
 }
-.view-product-wrapper{
+
+.view-product-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.view-product-wrapper .model-img{
+
+.view-product-wrapper .model-img {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.view-product-wrapper .model-img img{
+
+.view-product-wrapper .model-img img {
     width: 340px;
 }
-.just-dropped-wrapper .product{
+
+.just-dropped-wrapper .product {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.just-dropped-wrapper .product .card  img.card-img-top{
+
+.just-dropped-wrapper .product .card img.card-img-top {
     width: 250px;
-    
+
 }
-.just-dropped-wrapper .product .card-body .card-title{
+
+.just-dropped-wrapper .product .card-body .card-title {
     letter-spacing: .2em;
     margin-bottom: 6px;
     font-size: 12px;
-    font-family:  'Varela', sans-serif;
+    font-family: 'Varela', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #000;
 }
-.just-dropped-wrapper .product .card-body .card-text{
+
+.just-dropped-wrapper .product .card-body .card-text {
     letter-spacing: .2em;
     font-size: 12px;
-    font-family:  'Varela', sans-serif;
+    font-family: 'Varela', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #3b3b3b;
 }
 
-.button{
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/*****************media quiery*************************/
+@media (max-width: 432.98px) {
+
+    .model-img {
+        display: block !important;
+        margin: 0 60px !important;
+    }
+
+    .model-img img{
+        width: 290px !important;
+    }
+
 }
