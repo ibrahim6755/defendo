@@ -18,12 +18,9 @@
 
 .product-card-cover-wrapper .card-body h3 {
     margin-top: 16px;
-    font-size: 22px;
     letter-spacing: .3em;
     text-transform: uppercase;
     font-family: Montserrat, sans-serif;
-
-
 }
 
 .product-card-cover-wrapper .card-body .btn {
@@ -35,8 +32,10 @@
     text-align: center;
     cursor: pointer;
     border-radius: 0;
-    font-size: smaller;
+    font-size: x-small;
     padding: 12px;
-
-
+}
+/********************8generic classes*******************/
+.fs-16{
+    font-size: 16px;
 }
