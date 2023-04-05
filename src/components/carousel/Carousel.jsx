@@ -1,6 +1,5 @@
 import { React, useState } from 'react'
 import './CarouselStyles.css'
-import mainCarouselImg from '../../imgs/main-carousel-img.jpg'
 import mainCarousel from '../../imgs/mainCarousel.jpeg'
 
 export default function Carousel() {

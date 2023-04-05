@@ -3,6 +3,7 @@ import AnnouncementBar from '../../announcement-bar/AnnouncementBar'
 import NavBar from '../../NavBar/NavBar'
 import Carousel from '../../carousel/Carousel'
 import JustDropped from '../../justDropped/JustDropped'
+import OurVision from '../../ourVision/OurVision'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <NavBar />
       <Carousel/>
       <JustDropped/>
+      <OurVision/>
     </>
   )
 }
