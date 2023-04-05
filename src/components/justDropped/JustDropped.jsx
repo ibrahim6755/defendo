@@ -1,7 +1,7 @@
 import React from 'react'
 import './justDroppedStyles.css'
 import modelImg from '../../imgs/justDroppedModel.jpeg'
-import droppedProduct from '../../imgs/justDroppedProduct.jpeg'
+import droppedProduct from '../../imgs/droppedProduct.jpeg'
 function JustDropped() {
   return (
     <div className="just-dropped-wrapper">
