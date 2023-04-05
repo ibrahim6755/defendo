@@ -6,7 +6,11 @@
     align-items: center;
     justify-content: center;
 }
-
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .just-dropped-wrapper .container .title{
     font-size: 12px;
     letter-spacing: .2em;
