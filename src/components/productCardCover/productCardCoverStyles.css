@@ -1,7 +1,16 @@
 .product-card-cover-wrapper .card .cover-pic img {
     position: relative;
     width: 95%;
+    max-width: 95%;
     height: 480px;
+    overflow:clip;
+    transition: transform 2s ease-out;
+    background-size: cover;
+    box-sizing: border-box !important;
+}
+.product-card-cover-wrapper .card .cover-pic img:hover {
+    transform: scale(1.06);
+    width: 95%;
 }
 
 .product-card-cover-wrapper .card-body {
