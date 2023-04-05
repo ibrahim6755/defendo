@@ -11,13 +11,13 @@ function JustDropped() {
       <div className="container mt-5">
         <div className="view-product-wrapper">
          <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-12">
           <div className="model-img">
             <img src={modelImg} alt=" Model Image" />
           </div>
           
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 col-sm-12">
           <div className="product mx-5">
             <div class="card border-0">
               <img src={droppedProduct} class="card-img-top" alt="Product Image" />
