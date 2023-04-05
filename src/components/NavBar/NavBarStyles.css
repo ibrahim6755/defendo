@@ -21,6 +21,14 @@
 .mid-nav {
     width: 30%;
 }
+.mid-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid-nav a img{
+    width:230px;
+}
 
 .mid-nav .brand-text {
     display: flex;

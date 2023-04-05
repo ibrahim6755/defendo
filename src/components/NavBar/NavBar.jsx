@@ -18,7 +18,7 @@ function NavBar() {
                 <ul className="p-0">
                     <li className='list-style-none'>
                         <a className='text-decor' aria-current="page" href="#">
-                            <h1 className='brand-text m-0 mt-1'>DEFENDO</h1>
+                            <img  src={brandlogo} alt="" />
                         </a>
                     </li>
                 </ul>
