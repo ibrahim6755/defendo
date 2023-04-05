@@ -10,7 +10,7 @@ function ProductCardCover() {
                 <div className="cover-pic"><img src={chainsCoverPic} alt="" /></div>
                 <div className="card-body">
                 <h5 className='card-text text-light text-uppercase fs-16'>made for 24/7 wear</h5>
-                    <h3 className="card-title text-light text-uppercase fs-16">chains</h3>
+                    <h3 className="card-title text-light text-uppercase fs-16 ">chains</h3>
                     <a href="#" className="btn btn-light text-uppercase text-dark ">View products</a>
                 </div>
             </div>

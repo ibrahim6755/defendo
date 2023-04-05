@@ -15,12 +15,19 @@
     background-size: cover;
     transition: transform .8s cubic-bezier(.215, .61, .355, 1), opacity .8s cubic-bezier(.215, .61, .355, 1);
 }
-
+.product-card-cover-wrapper .card-body h5 {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-size:12px ;
+    font-weight: 500;
+}
 .product-card-cover-wrapper .card-body h3 {
     margin-top: 16px;
     letter-spacing: .3em;
     text-transform: uppercase;
     font-family: Montserrat, sans-serif;
+    font-weight: 500;
 }
 
 .product-card-cover-wrapper .card-body .btn {
