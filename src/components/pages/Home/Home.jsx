@@ -13,16 +13,14 @@ import Footer from '../../footer/Footer'
 function Home() {
   return (
     <>
-      <AnnouncementBar />
-      <NavBar />
       <Carousel />
       <JustDropped />
       <OurVision />
       <ProductCategoryRow />
-      <WarrantyCoverage/>
-      <OurInstaReviews/>
-      <CustomerReview/>
-      <Footer/>
+      <WarrantyCoverage />
+      <OurInstaReviews />
+      <CustomerReview />
+
     </>
   )
 }

@@ -1,18 +1,13 @@
 import React from 'react'
-import AnnouncementBar from '../../announcement-bar/AnnouncementBar'
 import './ContactUsStyles.css'
-import NavBar from '../../NavBar/NavBar'
-import Footer from '../../footer/Footer'
 import { Link } from 'react-router-dom'
 
 function ContactUs() {
     return (
         <>
-            <AnnouncementBar />
-            <NavBar />
            <div className="container">
            <div className="row">
-            <div className="col-md-4 w-50">
+            <div className="col-md-4 w-60">
             <div className="contact-us-wrapper">
                 <h5 className='heading text-uppercase text-center my-5'>contact us</h5>
                 <h5 className='question text-uppercase fw-bold'>how can you contact us?</h5>
@@ -26,16 +21,14 @@ function ContactUs() {
                     <p>Warehouse: 110C, 10th commercial street, DHA phase 4, Karachi</p>
                     <p>WhatsApp: 0323-7277660</p>
                     <p>Email: contact@shoprusset.com</p>
-                    <input type="text" placeholder='Your name'/><input type="email"placeholder='Your email' /> <br />
-                    <input type="text" placeholder='Your message'/> <br />
-                    <button>Send message</button>
+                    <input className='p-2 me-2 id' type="text" placeholder='Your name'/><input className='p-2 ms-4 id' type="email"placeholder='Your email' /> <br />
+                    <textarea className='message' name="Your message" id="" cols="100" rows="8">Your Message</textarea> <br />
+                    <button className='p-2'>Send message</button>
                 </div>
             </div>
             </div>
            </div>
            </div>
-
-            <Footer/>
         </>
     )
 }
