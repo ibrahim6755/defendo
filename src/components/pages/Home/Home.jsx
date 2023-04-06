@@ -7,6 +7,7 @@ import OurVision from '../../ourVision/OurVision'
 import ProductCategoryRow from '../../productCategories/ProductCategoryRow'
 import WarrantyCoverage from '../../warrantyCoverage/WarrantyCoverage'
 import OurInstaReviews from '../../ourInstaReviews/OurInstaReviews'
+import CustomerReview from '../../customerReview/CustomerReview'
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <ProductCategoryRow />
       <WarrantyCoverage/>
       <OurInstaReviews/>
+      <CustomerReview/>
     </>
   )
 }
