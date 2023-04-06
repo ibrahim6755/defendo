@@ -17,7 +17,7 @@ function NavBar() {
             <div className="mid-nav col-md-4 p-0 ">
                 <ul className="p-0">
                     <li className='list-style-none'>
-                        <Link className='text-decor' aria-current="page" to="#">
+                        <Link className='text-decor' aria-current="page" to="/">
                             <img  src={brandlogo} alt=""/>
                         </Link>
                     </li>
@@ -98,7 +98,7 @@ function NavBar() {
                     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div className="offcanvas-body m-0  py-5 px-4">
-                    <Link className='py-5 ' to="">Home</Link>
+                    <Link className='py-5 ' to="/">Home</Link>
                     <hr />
                     <Link className='py-5 ' to="">NEW RELEASES</Link>
                     <hr />
@@ -121,7 +121,7 @@ function NavBar() {
                     <Link className='py-5 ' to="">COMING SOON</Link>
                     <hr />
                     <div className="about mt-4">
-                        <Link className='d-block my-3' to="">Contact Us</Link>
+                        <Link className='d-block my-3' to="/contact">Contact Us</Link>
                         <Link className='d-block my-3' to="">FAQs</Link>
                         <Link className='d-block my-3' to="">Warranty Coverage</Link>
                         <Link className='d-block my-3' to="">Returns & Refunds</Link>
