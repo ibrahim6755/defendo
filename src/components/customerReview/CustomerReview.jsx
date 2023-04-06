@@ -8,7 +8,7 @@ function CustomerReview() {
         "Amazing customer service!",
         "I have brought many items from Russet and they are all good quality never disappointed even once"
     ]);
-    const [customers,setCustomers] = useState([
+    const [customers, setCustomers] = useState([
         "Aun Shakeel",
         "Eman",
         "Haider",
@@ -17,22 +17,23 @@ function CustomerReview() {
     ]);
     const [currentReview, setCurrentReview] = useState(0);
     const [currentCustomer, setCurrentCustomer] = useState(0)
-    const [currentReviewPlus, setcurrentReviewPlus] = useState(1);
+    const [currentReviewPlus, setcurrentReviewPlus] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setCurrentCustomer((currentCustomer +1) % customers.length)
+            setCurrentCustomer((currentCustomer + 1) % customers.length)
             setCurrentReview((currentReview + 1) % reviews.length);
         }, 3000);
         return () => clearInterval(interval);
-    }, [currentReview, reviews,customers,currentCustomer]);
+    }, [currentReview, reviews, customers, currentCustomer]);
+
     useEffect(() => {
         const interval = setInterval(() => {
-            setCurrentCustomer((currentCustomer +1) % customers.length)
+            setCurrentCustomer((currentCustomer + 1) % customers.length)
             setcurrentReviewPlus((currentReviewPlus + 1) % reviews.length);
-        }, 3000);
+        }, 4000);
         return () => clearInterval(interval);
-    }, [currentReviewPlus, reviews,customers]);
+    }, [currentReviewPlus, reviews, customers,currentCustomer]);
 
 
     return (
@@ -45,48 +46,52 @@ function CustomerReview() {
                                 <h5 className=" w-100 text-center"> See What Our Customer Have To Say</h5>
                             </div>
                             <div className="right">
-                            <h5 className="m-0 p-0 me-1">
-                                <div className="icons mx-2">
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
-                                 <span class="material-symbols-outlined">star</span>
-                                </div>
-                            Based On 1018 Reviews
-                            </h5>
+                                <h5 className="m-0 p-0 me-1">
+                                    <div className="icons mx-2">
+                                        <span class="material-symbols-outlined">star</span>
+                                        <span class="material-symbols-outlined">star</span>
+                                        <span class="material-symbols-outlined">star</span>
+                                        <span class="material-symbols-outlined">star</span>
+                                        <span class="material-symbols-outlined">star</span>
+                                    </div>
+                                    Based On 1018 Reviews
+                                </h5>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row mt-3">
                     <div className="col-md-12 p-4">
-                    <p className="fw-bold">{customers[currentCustomer]}</p>
                         <div className="reviews">
-                            <div className="msg"><p>{reviews[currentReview]}</p></div>
+                            <div className="customer">
+                                <p className="fw-bold">{customers[currentCustomer]}</p>
+                            </div>
                             <div className="rating-icon">
-                            <span class="material-symbols-outlined">star</span>
                                 <span class="material-symbols-outlined">star</span>
                                 <span class="material-symbols-outlined">star</span>
                                 <span class="material-symbols-outlined">star</span>
-                                 <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
                             </div>
                         </div>
+                        <div className="msg"><p>{reviews[currentReview]}</p></div>
                     </div>
                 </div>
                 <div className="row mt-3">
-                    <div className="col-md-12 p-4">
-                    <p className="fw-bold">{customers[currentCustomer]}</p>
+                <div className="col-md-12 p-4">
                         <div className="reviews">
-                            <p>{reviews[currentReviewPlus]}</p>
+                            <div className="customer">
+                                <p className="fw-bold">{customers[currentCustomer]}</p>
+                            </div>
                             <div className="rating-icon">
-                            <span class="material-symbols-outlined">star</span>
                                 <span class="material-symbols-outlined">star</span>
                                 <span class="material-symbols-outlined">star</span>
                                 <span class="material-symbols-outlined">star</span>
-                                 <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
+                                <span class="material-symbols-outlined">star</span>
                             </div>
                         </div>
+                        <div className="msg"><p>{reviews[currentReview]}</p></div>
                     </div>
                 </div>
             </div>
