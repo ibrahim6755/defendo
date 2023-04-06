@@ -18,8 +18,8 @@ export default function Carousel() {
                             <div className="overlay"></div>
                         </div>
                         <div className="carousel-caption d-md-block">
-                        <Link to=""> <div className="btn text-light text-uppercase mx-2 my-3">shop new releases</div></Link>
-                        <Link to=""> <div className="btn text-light text-uppercase mx-2 my-3">925 silver</div> </Link>
+                        <Link to="" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
+                        <Link to="" className="btn btn-light text-uppercase text-dark m-3">925 silver </Link>
 
                         </div>
                     </div>

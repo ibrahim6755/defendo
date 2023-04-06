@@ -14,10 +14,8 @@
 
 .carousel-wrapper .carousel-inner .btn {
   border: none;
-  border-radius: none;
+  border-radius: 0;
   transition: 1s;
-  outline: none;
-  background-color: #000;
   font-family: Varela, sans-serif;
   font-weight: 400;
   font-style: normal;
