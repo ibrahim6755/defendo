@@ -5,8 +5,8 @@ import warrantyCoveragePic from '../../imgs/warrantyCoveragePic.png'
 function WarrantyCoverage() {
     return (
         <div className="warranty-coverage-wrapper py-3">
-            <div class="container m-0">
-                <div class="div">
+            <div className="container m-0">
+                <div className="div">
                     <h3>Liffe time warranty</h3>
                     <p>We only use high quality materials and real PVD Vacuum and Electroplating
                     </p>

@@ -27,15 +27,6 @@ function CustomerReview() {
         return () => clearInterval(interval);
     }, [currentReview, reviews, customers, currentCustomer]);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentCustomer((currentCustomer + 1) % customers.length)
-            setcurrentReviewPlus((currentReviewPlus + 1) % reviews.length);
-        }, 4000);
-        return () => clearInterval(interval);
-    }, [currentReviewPlus, reviews, customers,currentCustomer]);
-
-
     return (
         <div className="customer-review-wrapper">
             <div className="container d-block">
@@ -48,11 +39,11 @@ function CustomerReview() {
                             <div className="right">
                                 <h5 className="m-0 p-0 me-1">
                                     <div className="icons mx-2">
-                                        <span class="material-symbols-outlined">star</span>
-                                        <span class="material-symbols-outlined">star</span>
-                                        <span class="material-symbols-outlined">star</span>
-                                        <span class="material-symbols-outlined">star</span>
-                                        <span class="material-symbols-outlined">star</span>
+                                        <span className="material-symbols-outlined">star</span>
+                                        <span className="material-symbols-outlined">star</span>
+                                        <span className="material-symbols-outlined">star</span>
+                                        <span className="material-symbols-outlined">star</span>
+                                        <span className="material-symbols-outlined">star</span>
                                     </div>
                                     Based On 1018 Reviews
                                 </h5>
@@ -68,28 +59,11 @@ function CustomerReview() {
                                 <p className="fw-bold">{customers[currentCustomer]}</p>
                             </div>
                             <div className="rating-icon">
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
-                            </div>
-                        </div>
-                        <div className="msg"><p>{reviews[currentReview]}</p></div>
-                    </div>
-                </div>
-                <div className="row mt-3">
-                <div className="col-md-12 p-4">
-                        <div className="reviews">
-                            <div className="customer">
-                                <p className="fw-bold">{customers[currentCustomer]}</p>
-                            </div>
-                            <div className="rating-icon">
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
-                                <span class="material-symbols-outlined">star</span>
+                                <span className="material-symbols-outlined">star</span>
+                                <span className="material-symbols-outlined">star</span>
+                                <span className="material-symbols-outlined">star</span>
+                                <span className="material-symbols-outlined">star</span>
+                                <span className="material-symbols-outlined">star</span>
                             </div>
                         </div>
                         <div className="msg"><p>{reviews[currentReview]}</p></div>

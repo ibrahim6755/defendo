@@ -1,15 +1,10 @@
 import React from 'react'
 import './OurInstaReviewsStyles.css'
-import review1 from '../../imgs/review1.png'
-import review2 from '../../imgs/review2.png'
 import review3 from '../../imgs/review3.png'
 import review4 from '../../imgs/review4.png'
 import review5 from '../../imgs/review5.png'
-import review6 from '../../imgs/review6.png'
-import review7 from '../../imgs/review7.png'
 import review8 from '../../imgs/review8.png'
 import review9 from '../../imgs/review9.png'
-import review10 from '../../imgs/review10.png'
 
 function OurInstaReviews() {
     return (

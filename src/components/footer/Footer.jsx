@@ -38,7 +38,7 @@ function Footer() {
             </div>
             <div className="row copyright-row px-5 py-4">
                 <div className="col-md-6">
-                    <p className='text-uppercase copyright'><i class="bi bi-c-circle text-light "></i> defendo</p>
+                    <p className='text-uppercase copyright'><i className="bi bi-c-circle text-light "></i> defendo</p>
                 </div>
                 <div className="col-md-6">
                     <div className="payments">
