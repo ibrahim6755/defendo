@@ -32,7 +32,7 @@ function OurInstaReviews() {
                     <a href=""><img className='w-100' src={review5} alt="" /></a>
                 </div>
                 <div className="col-md-4">
-                <div className="row row-imgs">
+                    <div className="row row-imgs">
                         <div className="col-md-6 p-0">
                             <a href=""><img className='w-100 px-2 my-2 px-2' src={review4} alt="" /></a>
                             <a href=""><img className='w-100 px-2 my-2 px-2' src={review3} alt="" /></a>
@@ -42,7 +42,7 @@ function OurInstaReviews() {
                             <a href=""><img className='w-100 my-2 px-2' src={review9} alt="" /></a>
                         </div>
                     </div>
-                   
+
                 </div>
             </div>
         </div>

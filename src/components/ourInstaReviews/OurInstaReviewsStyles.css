@@ -1,20 +1,13 @@
-.our-insta-reviews-wrapper h5{
+.our-insta-reviews-wrapper h5 {
     letter-spacing: .2em;
     text-transform: uppercase;
     font-size: 16px;
     color: #000;
     font-weight: 500;
 }
-.our-insta-reviews-wrapper .row-imgs{
+
+.our-insta-reviews-wrapper .row-imgs {
     display: flex;
     align-items: center;
 
-}
-
-
-
-
-
-.w-85{
-    width: 85%;
 }
