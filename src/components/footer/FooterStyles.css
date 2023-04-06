@@ -75,6 +75,10 @@
 
 /*****************media quiery*************************/
 @media (max-width: 432.98px) {
+    .row input{
+        width: 100% !important;
+        margin: 0;
+    }
     .copyright-row{
         padding:10px 0 !important;
     }

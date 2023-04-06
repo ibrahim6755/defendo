@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 function ProductCardCover() {
     return (
         <div className="product-card-cover-wrapper">
-            <a href="">
+            
             <div className="card mb-3 border-0">
                 <div className="cover-pic"><img src={chainsCoverPic} alt=""/></div>
                 <div className="card-body">
@@ -15,7 +15,7 @@ function ProductCardCover() {
                     <Link to="" className="btn btn-light text-uppercase text-dark ">View products</Link>
                 </div>
             </div>
-            </a>
+            
         </div>
     )
 }
