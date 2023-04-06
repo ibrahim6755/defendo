@@ -1,18 +1,50 @@
-.sorting-navbar{
+.sorting-navbar {
     border: 1px solid rgb(206, 206, 206);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.sorting-navbar .left-nav{
+
+.sorting-navbar .left-nav {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     border-right: 1px solid rgb(206, 206, 206);
+    cursor: pointer;
 }
-.sorting-navbar .right-nav .sort{
-    border-left:1px solid rgb(206, 206, 206);
-}
-.right-nav .filter{
+
+.sorting-navbar .right-nav .sort {
     border-left: 1px solid rgb(206, 206, 206);
+}
+
+.right-nav .filter {
+    border-left: 1px solid rgb(206, 206, 206);
+}
+
+.right-nav ul li a {
+    font-size: 14px;
+    letter-spacing: .2em;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    vertical-align: middle;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+
+}
+
+span {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    color: rgb(119, 119, 119);
 }
