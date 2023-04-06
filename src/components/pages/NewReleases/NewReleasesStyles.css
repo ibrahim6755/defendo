@@ -48,3 +48,74 @@ span {
     border-left: 0.3em solid transparent;
     color: rgb(119, 119, 119);
 }
+
+.new-releases-wrapper .offcanvas-header {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.filter .offcanvas-title {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: .2em;
+    vertical-align: middle;
+}
+
+.new-releases-wrapper .offcanvas-body ul li {
+    list-style-type: none;
+    margin: 8px 0;
+}
+
+.new-releases-wrapper .offcanvas-body ul li a {
+    color: #444444;
+    font-size: 10px;
+    letter-spacing: .2em;
+}
+
+.new-releases-wrapper .offcanvas-body ul li a:hover {
+    color: #000;
+    transition: 0.5s;
+}
+
+.new-releases-wrapper .offcanvas-body h5 {
+    font-size: 13px;
+    letter-spacing: .2em;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.price-range-bar {
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.price-range-bar-fill {
+    height: 100%;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.new-releases-wrapper .offcanvas-body .rupees{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.new-releases-wrapper .offcanvas-body .rupees .low{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(219, 219, 219);
+    justify-content: space-between;
+    width: 40%;
+    
+}
+.new-releases-wrapper .offcanvas-body .rupees .high{
+    display: flex;
+    border: 1px solid rgb(219, 219, 219);
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+h4{
+    font-size: 16px ;
+}
