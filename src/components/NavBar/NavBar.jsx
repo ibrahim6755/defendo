@@ -100,7 +100,7 @@ function NavBar() {
                 <div className="offcanvas-body m-0  py-5 px-4">
                     <Link className='py-5 ' to="/">Home</Link>
                     <hr />
-                    <Link className='py-5 ' to="">NEW RELEASES</Link>
+                    <Link className='py-5 ' to="/new-releases">NEW RELEASES</Link>
                     <hr />
                     <button className="accordion-button d-block" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <div className="shop-cat"><div className="category ">SHOP BY CATEGORY</div><div className="icon"><i className="bi bi-plus-lg fs-6"></i></div></div>

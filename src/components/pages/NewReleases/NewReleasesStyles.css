@@ -1,0 +1,18 @@
+.sorting-navbar{
+    border: 1px solid rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sorting-navbar .left-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-right: 1px solid rgb(206, 206, 206);
+}
+.sorting-navbar .right-nav .sort{
+    border-left:1px solid rgb(206, 206, 206);
+}
+.right-nav .filter{
+    border-left: 1px solid rgb(206, 206, 206);
+}

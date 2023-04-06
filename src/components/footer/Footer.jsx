@@ -30,7 +30,7 @@ function Footer() {
                         <li><Link to="">Rings</Link></li>
                     </ul>
                 </div>
-                <div className="col-md-4 ">
+                <div className="col-md-4 align-items-center">
                     <p className='text-uppercase'>join the team</p>
                     <p className='p-text'>Subscribe to receive updates, access to <br /> exclusive deals, and more.</p>
                     <input className='d-block p-2' type="email" placeholder='Enter Your Email address' />
