@@ -43,8 +43,8 @@ function Footer() {
                 </div>
                 <div className="col-md-6">
                     <div className="payments">
-                    <img className='mx-2' src={visa}  />
-                    <img className='mx-2' src={creditCard}  />
+                    <img className='mx-2' src={visa}  alt=""/>
+                    <img className='mx-2' src={creditCard}  alt=""/>
                     </div>
                 </div>
             </div>

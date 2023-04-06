@@ -12,7 +12,7 @@ export default function Carousel() {
             <div id="carouselExampleCaptions" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className='d-sm-none d-md-none mob w-100' src={mobileCarousel}/>
+                        <img className='d-sm-none d-md-none mob w-100' src={mobileCarousel} alt=""/>
                         <div className="">
                             <img src={mainWideCarousel} className={`wide d-none d-sm-block w-100 fade-in ${isImageLoaded ? 'loaded' : ''}`} alt="..." onLoad={() => setIsImageLoaded(true)} />
                             <div className="overlay"></div>

@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import './CustomerReviewStyles.css'
 
 function CustomerReview() {
-    const [reviews, setReviews] = useState([
+    const [reviews] = useState([
         "PREMIUM QUALITY!",
         "The Ring and the whole packaging was amazing no cap. I would suggest russet anytime.Definitely going to buy Esker as well",
         "Amazing customer service!",
         "I have brought many items from Russet and they are all good quality never disappointed even once"
     ]);
-    const [customers, setCustomers] = useState([
+    const [customers] = useState([
         "Aun Shakeel",
         "Eman",
         "Haider",
@@ -17,7 +17,6 @@ function CustomerReview() {
     ]);
     const [currentReview, setCurrentReview] = useState(0);
     const [currentCustomer, setCurrentCustomer] = useState(0)
-    const [currentReviewPlus, setcurrentReviewPlus] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {

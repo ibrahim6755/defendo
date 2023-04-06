@@ -14,14 +14,14 @@ function JustDropped() {
           <div className="row">
             <div className="col-md-6 col-sm-12">
               <div className="model-img">
-                <img src={modelImg}  />
+                <img src={modelImg}  alt=""/>
               </div>
 
             </div>
             <div className="col-md-6 col-sm-12">
               <div className="product mx-5 my-3">
                 <div className="card border-0">
-                  <img src={droppedProduct} className="card-img-top"  />
+                  <img src={droppedProduct} className="card-img-top"  alt=""/>
                   <div className="card-body">
                     <h5 className="card-title text-uppercase text-center">44 CALIBER RING</h5>
                     <p className="card-text text-center mb-4">1,500.00 PKR</p>

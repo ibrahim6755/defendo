@@ -15,27 +15,27 @@ function OurInstaReviews() {
                 <div className="col-md-4">
                     <div className="row row-imgs py-4">
                         <div className="col-md-6 p-0">
-                            <Link to=""><img className='w-100 my-2 px-2' src={review9}  /></Link>
-                            <Link to=""><img className='w-100 my-2 px-2' src={review8}  /></Link>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review9} alt="" /></Link>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review8} alt="" /></Link>
                         </div>
                         <div className="col-md-6 p-0">
-                            <Link to=""><img className='w-100 my-2 px-2' src={review3}  /></Link>
-                            <Link to=""><img className='w-100 my-2 px-2' src={review4}  /></Link>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review3} alt="" /></Link>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review4} alt="" /></Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 p-2">
-                    <Link to=""><img className='w-100' src={review5}  /></Link>
+                    <Link to=""><img className='w-100' src={review5}  alt=""/></Link>
                 </div>
                 <div className="col-md-4">
                     <div className="row row-imgs">
                         <div className="col-md-6 p-0">
-                            <Link to=""><img className='w-100 px-2 my-2 px-2' src={review4}  /></Link>
-                            <Link to=""><img className='w-100 px-2 my-2 px-2' src={review3}  /></Link>
+                            <Link to=""><img className='w-100 px-2 my-2 px-2' src={review4} alt="" /></Link>
+                            <Link to=""><img className='w-100 px-2 my-2 px-2' src={review3} alt="" /></Link>
                         </div>
                         <div className="col-md-6 p-0">
-                            <Link to=""><img className='w-100 my-2 px-2' src={review8}  /></Link>
-                            <Link to=""><img className='w-100 my-2 px-2' src={review9}  /></Link>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review8} alt="" /></Link>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review9} alt="" /></Link>
                         </div>
                     </div>
 
