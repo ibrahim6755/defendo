@@ -1,12 +1,13 @@
 import React from 'react'
 import './announcementBarStyles.css'
+import {Link} from 'react-router-dom'
 
 function AnnouncementBar() {
     return (
         <div className="announcement-bar-wrapper">
             <div className="row">
                 <div className="col-md-12">
-                    <p className='text-uppercase'><a href="">FREE SHIPPING + EASY RETURNS & EXCHANGES</a></p>
+                    <p className='text-uppercase'><Link to="">FREE SHIPPING + EASY RETURNS & EXCHANGES</Link></p>
                 </div>
             </div>
         </div>

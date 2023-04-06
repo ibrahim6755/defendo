@@ -5,6 +5,7 @@ import review4 from '../../imgs/review4.png'
 import review5 from '../../imgs/review5.png'
 import review8 from '../../imgs/review8.png'
 import review9 from '../../imgs/review9.png'
+import {Link} from 'react-router-dom'
 
 function OurInstaReviews() {
     return (
@@ -14,27 +15,27 @@ function OurInstaReviews() {
                 <div className="col-md-4">
                     <div className="row row-imgs py-4">
                         <div className="col-md-6 p-0">
-                            <a href=""><img className='w-100 my-2 px-2' src={review9} alt="" /></a>
-                            <a href=""><img className='w-100 my-2 px-2' src={review8} alt="" /></a>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review9}  /></Link>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review8}  /></Link>
                         </div>
                         <div className="col-md-6 p-0">
-                            <a href=""><img className='w-100 my-2 px-2' src={review3} alt="" /></a>
-                            <a href=""><img className='w-100 my-2 px-2' src={review4} alt="" /></a>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review3}  /></Link>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review4}  /></Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4 p-2">
-                    <a href=""><img className='w-100' src={review5} alt="" /></a>
+                    <Link to=""><img className='w-100' src={review5}  /></Link>
                 </div>
                 <div className="col-md-4">
                     <div className="row row-imgs">
                         <div className="col-md-6 p-0">
-                            <a href=""><img className='w-100 px-2 my-2 px-2' src={review4} alt="" /></a>
-                            <a href=""><img className='w-100 px-2 my-2 px-2' src={review3} alt="" /></a>
+                            <Link to=""><img className='w-100 px-2 my-2 px-2' src={review4}  /></Link>
+                            <Link to=""><img className='w-100 px-2 my-2 px-2' src={review3}  /></Link>
                         </div>
                         <div className="col-md-6 p-0">
-                            <a href=""><img className='w-100 my-2 px-2' src={review8} alt="" /></a>
-                            <a href=""><img className='w-100 my-2 px-2' src={review9} alt="" /></a>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review8}  /></Link>
+                            <Link to=""><img className='w-100 my-2 px-2' src={review9}  /></Link>
                         </div>
                     </div>
 

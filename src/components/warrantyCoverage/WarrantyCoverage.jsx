@@ -1,6 +1,6 @@
 import React from 'react'
 import './warrantyCoverageStyles.css'
-import warrantyCoveragePic from '../../imgs/warrantyCoveragePic.png'
+import {Link} from 'react-router-dom'
 
 function WarrantyCoverage() {
     return (
@@ -15,7 +15,7 @@ function WarrantyCoverage() {
                         to see any discoloring or tarnishing, we will replace the piece free of charge.</p>
 
                         <div className="read-more">
-                            <a href="" className='text-center text-white text-decor'>Read More</a>
+                            <Link to="" className='text-center text-white text-decor'>Read More</Link>
                         </div>
                 </div>
             </div>
