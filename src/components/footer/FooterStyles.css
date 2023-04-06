@@ -72,3 +72,22 @@
 .footer-wrapper .row .payments img{
     width: 35px;
 }
+
+/*****************media quiery*************************/
+@media (max-width: 432.98px) {
+    .copyright-row{
+        padding:10px 0 !important;
+    }
+    .row .copyright{
+        text-align: center;
+        border-bottom: .5px solid #555555;
+        padding-bottom: 60px;
+    }
+    .row .payments{
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+
+}

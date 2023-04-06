@@ -5,8 +5,8 @@ import creditCard from '../../imgs/credit-card.png'
 function Footer() {
     return (
         <div className="footer-wrapper mt-5">
-            <div className="row p-5">
-                <div className="col-md-4">
+            <div className="row p-5 align-items-start ">
+                <div className="col-md-4 text-start">
                     <p className='text-uppercase'>company</p>
                     <ul>
                         <li><a href="">Contact Us</a></li>
@@ -20,7 +20,7 @@ function Footer() {
                         <li><a href=""> Refund policy</a></li>
                     </ul>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 text-start">
                     <p className='text-uppercase'>shop</p>
                     <ul>
                         <li><a href="">Bracelets</a></li>
@@ -29,14 +29,14 @@ function Footer() {
                         <li><a href="">Rings</a></li>
                     </ul>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 ">
                     <p className='text-uppercase'>join the team</p>
-                    <p className='p-text'>Subscribe to receive updates, access to exclusive deals, and more.</p>
+                    <p className='p-text'>Subscribe to receive updates, access to <br /> exclusive deals, and more.</p>
                     <input className='d-block p-2' type="email" placeholder='Enter Your Email address' />
                     <a href="" className="btn text-uppercase my-3">subscribe</a>
                 </div>
             </div>
-            <div className="row px-5 py-4">
+            <div className="row copyright-row px-5 py-4">
                 <div className="col-md-6">
                     <p className='text-uppercase copyright'><i class="bi bi-c-circle text-light "></i> defendo</p>
                 </div>
@@ -49,6 +49,7 @@ function Footer() {
             </div>
         </div>
     )
+    
 }
 
 export default Footer
