@@ -67,10 +67,10 @@ button{
         height: 100px !important;
         width: 280px !important;
     }
-    .col-md-4{
+    .contact-wrapper .col-md-4{
         width: 80%;
     }
-    .row{
+   .contact-wrapper .row{
         justify-content: flex-start !important;
     }
   }

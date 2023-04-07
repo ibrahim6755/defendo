@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 function ContactUs() {
     return (
-        <>
-           <div className="container">
+        <><div className="contact-wrapper">
+  <div className="container">
            <div className="row">
             <div className="col-md-4 w-60">
             <div className="contact-us-wrapper">
@@ -29,6 +29,8 @@ function ContactUs() {
             </div>
            </div>
            </div>
+        </div>
+         
         </>
     )
 }
