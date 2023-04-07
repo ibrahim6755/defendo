@@ -21,6 +21,7 @@
 }
 .customer-review-wrapper .customer-says .right{
     display: flex;
+    padding: 7px;
     align-items: center;
     justify-content: center;
     text-align: left;
@@ -45,6 +46,11 @@
 
 .w-65{
     width: 65%;
+}
+.customer-review-wrapper .icons .star{
+    width: 10px;
+    margin: 0 2px;
+
 }
 
 

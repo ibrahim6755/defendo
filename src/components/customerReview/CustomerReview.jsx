@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './CustomerReviewStyles.css'
+import reviewStar from '../../imgs/reviewStar.png'
 
 function CustomerReview() {
     const [reviews] = useState([
@@ -32,17 +33,17 @@ function CustomerReview() {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="customer-says">
-                            <div className="left px-3 py-2">
+                            <div className="left px-3 p-1">
                                 <h5 className=" w-100 text-center"> See What Our Customer Have To Say</h5>
                             </div>
                             <div className="right">
                                 <h5 className="m-0 p-0 me-1">
-                                    <div className="icons mx-2">
-                                        <span className="material-symbols-outlined">star</span>
-                                        <span className="material-symbols-outlined">star</span>
-                                        <span className="material-symbols-outlined">star</span>
-                                        <span className="material-symbols-outlined">star</span>
-                                        <span className="material-symbols-outlined">star</span>
+                                    <div className="icons b mx-2">
+                                        <img className="star" src={reviewStar} alt="" />
+                                        <img className="star" src={reviewStar} alt="" />
+                                        <img className="star" src={reviewStar} alt="" />
+                                        <img className="star" src={reviewStar} alt="" />
+                                        <img className="star" src={reviewStar} alt="" />
                                     </div>
                                     Based On 1018 Reviews
                                 </h5>
@@ -57,13 +58,13 @@ function CustomerReview() {
                             <div className="customer">
                                 <p className="fw-bold">{customers[currentCustomer]}</p>
                             </div>
-                            <div className="rating-icon">
-                                <span className="material-symbols-outlined">star</span>
-                                <span className="material-symbols-outlined">star</span>
-                                <span className="material-symbols-outlined">star</span>
-                                <span className="material-symbols-outlined">star</span>
-                                <span className="material-symbols-outlined">star</span>
-                            </div>
+                            <div className="icons b mx-2">
+                                        <img className="star" src={reviewStar} alt="" />
+                                        <img className="star" src={reviewStar} alt="" />
+                                        <img className="star" src={reviewStar} alt="" />
+                                        <img className="star" src={reviewStar} alt="" />
+                                        <img className="star" src={reviewStar} alt="" />
+                                    </div>
                         </div>
                         <div className="msg"><p>{reviews[currentReview]}</p></div>
                     </div>

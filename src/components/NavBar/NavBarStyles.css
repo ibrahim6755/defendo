@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .main-name{
-    font: url(../../font/font.ttf);
+    font: url(../../font/font.ttf) !important;
 }
 .right-nav {
     display: flex;
