@@ -1,0 +1,49 @@
+.product-card-wrapper .card-body h5 {
+    font-size: 12px;
+    margin: 0;
+    letter-spacing: .2em;
+    font-family:  Montserrat, sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+.product-card-wrapper .card-body .about {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+.product-card-wrapper .card-body .about .review {
+    font-size: 12px;
+    margin: 0;
+    font-family:  Montserrat, sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+.product-card-wrapper .card-body .icons {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-size: 10px;
+}
+.product-card-wrapper .card-body .icons span{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-size: 14px;
+}
+
+.product-card-wrapper .card-body .colors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-card-wrapper .card-body .colors a {
+    text-decoration: none;
+}
+.product-card-wrapper .price{
+    font-size: 12px;
+    margin: 0;
+    letter-spacing: .2em;
+    font-family:  Montserrat, sans-serif;
+    font-weight: 600;
+    color: #424242;
+}

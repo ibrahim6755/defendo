@@ -80,15 +80,38 @@
 
 
 /*****************media quiery*************************/
+@media (max-width: 300.98px) {
+
+    .model-img {
+        display: block !important;
+        margin: 0 30px !important;
+    }
+
+    .model-img img{
+        width: 275px !important;
+    }
+
+}
 @media (max-width: 432.98px) {
 
     .model-img {
         display: block !important;
-        margin: 0 60px !important;
+        margin: 0 30px !important;
     }
 
     .model-img img{
-        width: 290px !important;
+        width: 275px !important;
     }
 
+}
+@media (max-width: 750.98px) {
+
+    .model-img {
+        display: block !important;
+        margin: 0 130px !important;
+    }
+
+    .model-img img{
+        width: 280px !important;
+    }
 }
