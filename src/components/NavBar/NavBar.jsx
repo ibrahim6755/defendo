@@ -131,7 +131,7 @@ function NavBar() {
                     <hr className='m-1 w-100' />
                     <div className="social-media py-2">
                         <Link to=""><i className="bi bi-facebook fs-6"></i></Link>
-                        <Link to=""><i className="bi bi-instagram fs-6"></i></Link>
+                        <Link to="https://www.instagram.com/defendoofficial/reels/"><i className="bi bi-instagram fs-6"></i></Link>
                         <Link to=""><i className="bi bi-tiktok fs-6"></i></Link>
                     </div>
                 </div>
