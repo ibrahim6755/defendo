@@ -53,3 +53,24 @@ button{
     background-color: #191817;
     letter-spacing: .1em;
 }
+
+
+/*********************************/
+  @media (max-width: 400px){
+    .contact-us-wrapper input{
+        margin: 10px 0 !important;
+    }
+    .contact-us-wrapper input.email {
+        margin: 0 !important;
+    }
+    .contact-us-wrapper .note textarea.custom {
+        height: 100px !important;
+        width: 280px !important;
+    }
+    .col-md-4{
+        width: 80%;
+    }
+    .row{
+        justify-content: flex-start !important;
+    }
+  }

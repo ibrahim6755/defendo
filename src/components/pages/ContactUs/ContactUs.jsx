@@ -21,8 +21,8 @@ function ContactUs() {
                     <p>Warehouse: 110C, 10th commercial street, DHA phase 4, Karachi</p>
                     <p>WhatsApp: 0323-7277660</p>
                     <p>Email: contact@shoprusset.com</p>
-                    <input className='p-2 me-2 id' type="text" placeholder='Your name'/><input className='p-2 ms-4 id' type="email"placeholder='Your email' /> <br />
-                    <textarea className='message' name="Your message" id="" cols="100" rows="8">Your Message</textarea> <br />
+                    <input className='p-2 me-2 id' type="text" placeholder='Your name'/><input className='p-2 ms-4 id email' type="email"placeholder='Your email' /> <br />
+                    <textarea className='message my-2 custom' name="Your message" cols="100" rows="8">Your Message</textarea> <br />
                     <button className='p-2'>Send message</button>
                 </div>
             </div>
