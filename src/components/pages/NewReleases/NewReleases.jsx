@@ -68,14 +68,14 @@ function NewReleases() {
                                     <h5 className="offcanvas-title text-uppercase" id="offcanvasScrollingLabel">filters</h5>
                                     <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
-                                <div className="offcanvas-body m-0">
+                                <div className="offcanvas-body m-0 d-block">
                                     <ul className='p-0 px-2 '>
                                         <li><h5 className='text-uppercase'>availabilty</h5></li>
                                         <li><Link className='my-2' to="">In stock (30)</Link></li>
                                         <li><Link className='my-2' to="">Out of stock (31) </Link></li>
                                     </ul>
                                     <h5 className='text-uppercase px-2 mt-4'>price</h5>
-                                   <div className="price-range">
+                                   <div className="price-range d-none d-md-block">
                                    <div
                                         className="price-range-bar"
                                         onMouseDown={handleMouseDown}
