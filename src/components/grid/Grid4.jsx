@@ -1,10 +1,10 @@
 import React from 'react'
-import './NewReleasesStyles.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
-import ProductCard from '../../productCard/ProductCard';
+import ProductCard from '../../components/productCard/ProductCard';
 
-function NewReleases() {
+
+function Grid4() {
 
     const [fillWidth, setFillWidth] = useState(0);
 
@@ -118,58 +118,42 @@ function NewReleases() {
                 </div>
             </div>
             <div className="row py-4 px-5">
-                <div className="col-md-3">
+                <div className="col-md-6">
                     <ProductCard />
                 </div>
-                <div className="col-md-3">
-                    <ProductCard />
-                </div>
-                <div className="col-md-3">
-                    <ProductCard />
-                </div>
-                <div className="col-md-3">
+                <div className="col-md-6">
                     <ProductCard />
                 </div>
             </div>
             <div className="row py-4 px-5">
-                <div className="col-md-3">
+                <div className="col-md-6">
                     <ProductCard />
                 </div>
-                <div className="col-md-3">
-                    <ProductCard />
-                </div>
-                <div className="col-md-3">
-                    <ProductCard />
-                </div>
-                <div className="col-md-3">
+                <div className="col-md-6">
                     <ProductCard />
                 </div>
             </div>
             <div className="row py-4 px-5">
-                <div className="col-md-3">
+                <div className="col-md-6">
                     <ProductCard />
                 </div>
-                <div className="col-md-3">
-                    <ProductCard />
-                </div>
-                <div className="col-md-3">
-                    <ProductCard />
-                </div>
-                <div className="col-md-3">
+                <div className="col-md-6">
                     <ProductCard />
                 </div>
             </div>
             <div className="row py-4 px-5">
-                <div className="col-md-3">
+                <div className="col-md-6">
                     <ProductCard />
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-6">
                     <ProductCard />
                 </div>
-                <div className="col-md-3">
+            </div>
+            <div className="row py-4 px-5">
+                <div className="col-md-6">
                     <ProductCard />
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-6">
                     <ProductCard />
                 </div>
             </div>
@@ -178,4 +162,6 @@ function NewReleases() {
     )
 }
 
-export default NewReleases
+
+
+export default Grid4
