@@ -20,8 +20,15 @@
 .mid-nav {
     width: 30%;
 }
+.mid-nav ul{
+    margin: 0;
+}
 .mid-nav a {
+    color: #747474;
     display: flex;
+    letter-spacing: 0.5em;
+    border-bottom: 0;
+    text-decoration: none !important;
     align-items: center;
     justify-content: center;
 }

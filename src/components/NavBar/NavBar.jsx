@@ -1,12 +1,11 @@
 import React from 'react';
 import './NavBarStyles.css';
-import brandlogo from '../../imgs/brand-logo.png';
 import {Link} from 'react-router-dom'
 function NavBar() {
     return (
-        <div className="nav-bar-wrapper sticky-top bg-body-tertiary">
+        <div className="nav-bar-wrapper sticky-top bg-body-tertiary p-1">
             <div className="col-md-4  left-nav">
-                <ul className=" mb-md-0">
+                <ul className=" mb-md-0 m-0">
                     <li className='list-style-none'>
                         <Link className="btn  d-md-block text-decor" data-bs-toggle="offcanvas" to="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
                             <i className="bi bi-list text-dark fs-4 fw-bold"></i>
@@ -16,9 +15,9 @@ function NavBar() {
             </div>
             <div className="mid-nav col-md-4 p-0 ">
                 <ul className="p-0">
-                    <li className='list-style-none'>
+                    <li className='list-style-none align-items-center'>
                         <Link className='text-decor' aria-current="page" to="/">
-                            <img  src={brandlogo} alt=""/>
+                            <h5 className='text-uppercase fs-2'>defendo</h5>
                         </Link>
                     </li>
                 </ul>
