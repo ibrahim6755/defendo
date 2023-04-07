@@ -11,9 +11,9 @@ function OurInstaReviews() {
     return (
         <div className="our-insta-reviews-wrapper py-2">
             <div className="row">
-                <h5 className='text-center '>CATCH UP WITH US ON INSTAGRAM <span>⚡️</span></h5>
+                <h5 className='text-center p-2'>CATCH UP WITH US ON INSTAGRAM <span>⚡️</span></h5>
                 <div className="col-md-4">
-                    <div className="row row-imgs py-4">
+                    <div className="row row-imgs py-4 px-3">
                         <div className="col-md-6 p-0">
                             <Link to="https://www.instagram.com/defendoofficial/reels/"><img className='w-100 my-2 px-2' src={review9} alt="" /></Link>
                             <Link to="https://www.instagram.com/defendoofficial/reels/"><img className='w-100 my-2 px-2' src={review8} alt="" /></Link>
@@ -24,11 +24,11 @@ function OurInstaReviews() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 p-2">
+                <div className="col-md-4 p-2 px-4">
                     <Link to="https://www.instagram.com/defendoofficial/reels/"><img className='w-100' src={review5}  alt=""/></Link>
                 </div>
                 <div className="col-md-4">
-                    <div className="row row-imgs">
+                    <div className="row row-imgs px-3">
                         <div className="col-md-6 p-0">
                             <Link to="https://www.instagram.com/defendoofficial/reels/"><img className='w-100 px-2 my-2 px-2' src={review4} alt="" /></Link>
                             <Link to="https://www.instagram.com/defendoofficial/reels/"><img className='w-100 px-2 my-2 px-2' src={review3} alt="" /></Link>

@@ -1,15 +1,11 @@
-.overlay {
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 .our-vision-wrapper .carousel-inner img {
     height: 500px;
-}
-
-.our-vision-wrapper .carousel-inner {
     position: relative;
+}
+.carousel-inner .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .our-vision-wrapper .carousel-caption {
@@ -40,9 +36,13 @@
 
 
 /*****************media quiery*************************/
-@media (max-width: 432.98px) {
+@media (max-width: 400.98px) {
     .carousel-caption{
         width: 60% !important;
+        margin: 0 !important;
+    }
+    .our-vision-wrapper{
+        padding: 10px;
     }
 
 }

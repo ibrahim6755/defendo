@@ -40,9 +40,10 @@
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
-@media (max-width: 372px) {
+@media (max-width: 400px) {
   .carousel-caption  {
-    margin: 16px 15px !important;
+    margin: 16px 16px !important;
+    width: 75%;
   }
 
   .carousel-caption .btn {
