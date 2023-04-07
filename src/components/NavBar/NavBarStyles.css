@@ -4,7 +4,9 @@
     align-items: center;
     justify-content: center;
 }
-
+.main-name{
+    font: url(../../font/font.ttf);
+}
 .right-nav {
     display: flex;
     align-items: center;

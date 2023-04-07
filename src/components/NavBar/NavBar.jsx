@@ -17,7 +17,7 @@ function NavBar() {
                 <ul className="p-0">
                     <li className='list-style-none align-items-center'>
                         <Link className='text-decor' aria-current="page" to="/">
-                            <h5 className='text-uppercase fs-2'>defendo</h5>
+                            <h5 className='text-uppercase fs-2 main-name'>defendo</h5>
                         </Link>
                     </li>
                 </ul>
