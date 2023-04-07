@@ -24,7 +24,7 @@ export default function Carousel() {
                     <img src={mainWideCarousel} className={`wide d-none d-sm-block w-100 fade-in ${isImageLoaded ? 'loaded' : ''}`} alt="" onLoad={() => setIsImageLoaded(true)} />
                     <div className="overlay"></div>
                     <div className="carousel-caption d-md-block">
-                            <Link to="" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
+                            <Link to="/new-releases" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
                             <Link to="" className="btn btn-light text-uppercase text-dark m-3">925 silver </Link>
 
                         </div>
@@ -33,7 +33,7 @@ export default function Carousel() {
                         <img src={carousel2} className="d-block w-100" alt="" />
                         <div className="overlay"></div>
                         <div className="carousel-caption d-md-block">
-                            <Link to="" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
+                            <Link to="/new-releases" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
                             <Link to="" className="btn btn-light text-uppercase text-dark m-3">925 silver </Link>
 
                         </div>
@@ -42,7 +42,7 @@ export default function Carousel() {
                         <img src={carousel3} className="d-block w-100" alt="" />
                         <div className="overlay"></div>
                         <div className="carousel-caption d-md-block">
-                            <Link to="" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
+                            <Link to="/new-releases" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
                             <Link to="" className="btn btn-light text-uppercase text-dark m-3">925 silver </Link>
 
                         </div>

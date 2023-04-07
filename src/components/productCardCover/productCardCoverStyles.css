@@ -1,5 +1,17 @@
+.img-containe{
+    display: inline-block;
+}
+.image-container .zoom-in img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.image-container .zoom-in:hover img{
+    transform: scale(1.5);
+}
 .product-card-cover-wrapper .card .cover-pic img {
     position: relative;
+    overflow: hidden;
+    display: block;
     width: 95%;
     max-width: 95%;
     height: 480px;
@@ -55,3 +67,21 @@
 .fs-16{
     font-size: 16px;
 }
+.img-container{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* Set the aspect ratio of the image */
+    overflow: hidden;
+}
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+  .image-container:hover img {
+    transform: scale(1.2); /* Set the scale factor */
+  }
