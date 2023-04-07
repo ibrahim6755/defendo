@@ -128,6 +128,48 @@ function NewReleases() {
                 <ProductCard/>
                 </div>
             </div>
+            <div className="row py-4 px-5">
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+            </div>
+            <div className="row py-4 px-5">
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+            </div>
+            <div className="row py-4 px-5">
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+                <div className="col-md-3">
+                <ProductCard/>
+                </div>
+            </div>
         </div>
 
     )
