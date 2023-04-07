@@ -10,7 +10,7 @@ function Footer() {
                 <div className="col-md-4 text-start">
                     <p className='text-uppercase'>company</p>
                     <ul>
-                        <li><Link to="">Contact Us</Link></li>
+                        <li><Link to="/contact">Contact Us</Link></li>
                         <li><Link to="">FAQs</Link></li>
                         <li><Link to="">Warranty Coverage</Link></li>
                         <li><Link to="">Returns & Refunds</Link></li>

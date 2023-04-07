@@ -1,6 +1,6 @@
 import React from 'react'
 import './OurVisionStyles.css'
-import ourvisionImg from '../../imgs/ourVision.png'
+import ourvisionImg from '../../imgs/vision.jpeg'
 
 function OurVision() {
     return (

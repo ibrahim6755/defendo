@@ -8,11 +8,11 @@
     background-size: cover;
     box-sizing: border-box !important;
 }
+
 .product-card-cover-wrapper .card .cover-pic img:hover {
     transform: scale(1.06);
     width: 95%;
 }
-
 .product-card-cover-wrapper .card-body {
     position: absolute;
     bottom: 10%;
