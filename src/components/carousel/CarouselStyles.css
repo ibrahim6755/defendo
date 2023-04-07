@@ -1,7 +1,7 @@
-.carousel-inner .overlay{
+.carousel-inner .carousel-item .overlay{
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 
@@ -37,13 +37,10 @@
 }
 
 /*********************************/
-/* // X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
-
-@media (max-width: 400px) {
+@media (max-width: 330px) {
   .carousel-caption  {
     margin: 16px 16px !important;
-    width: 75%;
+    width: 75% !important;
   }
 
   .carousel-caption .btn {
@@ -59,4 +56,10 @@
   display: block !important;
 }
 
+}
+@media (max-width: 400.98px){
+.carousel-caption {
+    width: 70% !important;
+    margin: 0 !important;
+}
 }
