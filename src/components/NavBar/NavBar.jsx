@@ -121,7 +121,7 @@ function NavBar() {
                     <hr />
                     <div className="about mt-4">
                         <Link className='d-block my-3' to="/contact">Contact Us</Link>
-                        <Link className='d-block my-3' to="">FAQs</Link>
+                        <Link className='d-block my-3' to="/faq">FAQs</Link>
                         <Link className='d-block my-3' to="">Warranty Coverage</Link>
                         <Link className='d-block my-3' to="">Returns & Refunds</Link>
                         <Link className='d-block my-3' to="">Account</Link>

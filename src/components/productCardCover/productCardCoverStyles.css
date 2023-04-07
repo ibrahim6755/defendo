@@ -3,7 +3,7 @@
 }
 .image-container .zoom-in img{
     transform: scale(1);
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .image-container .zoom-in:hover img{
     transform: scale(1.5);

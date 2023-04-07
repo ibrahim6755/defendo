@@ -26,7 +26,7 @@ function ProductCard() {
                     </div>
                     <p className="card-text text-center price">1,500.00pkr</p>
                     <div className="colors mt-3">
-                        <Link to="#" className="btn btn-primary m-1 p-2"></Link> <Link to="#" className=" m-1 btn btn-warning  p-2"></Link> <Link to="#" className=" m-1 btn btn-dark  p-2"></Link> 
+                        <Link to="" className="btn btn-primary m-1 p-2"></Link> <Link to="#" className=" m-1 btn btn-warning  p-2"></Link> <Link to="#" className=" m-1 btn btn-dark  p-2"></Link> 
                     </div>
                 </div>
             </div>
