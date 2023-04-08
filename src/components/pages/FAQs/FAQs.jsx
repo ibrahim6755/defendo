@@ -75,6 +75,36 @@ function FAQs() {
                     </div>
                 </div>
             </div>
+
+            <div className="row my-4">
+                <div className="accordion accordion-flush w-75" id="accordionFlushExample">
+                    <h5 className='fw-bold text-uppercase'>RETURNS + EXCHANGES</h5>
+                    <div className="accordion-item my-2 ">
+                        <h2 className="accordion-header ">
+                            <button className="accordion-button collapsed text-light bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                What is your return policy?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div className="accordion-body">We want you to be completely satisfied with your purchase. Our refund and return policy lasts 15 days. If 15 days have passed since ur purchase,we can not offer you exchange or refund.
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="accordion-item my-2">
+                        <h2 className="accordion-header">
+                            <button className="accordion-button collapsed  text-light bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                                How can I contact customer care?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSeven" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div className="accordion-body">You can contact our customer driver teams by email or phone.
+                                We are available Monday to Saturday, from 9am to 5pm PST.
+                                Please see our contact page for more information.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
