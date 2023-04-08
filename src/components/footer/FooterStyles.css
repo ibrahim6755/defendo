@@ -45,11 +45,10 @@
 }
 .footer-wrapper .row input{
     color: #fff;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     background-color: #272727;
     border-radius:0;
     border: 1px solid #fff;
-    width: 60%;
 }
 .footer-wrapper .row input::placeholder{
     color: #fff;

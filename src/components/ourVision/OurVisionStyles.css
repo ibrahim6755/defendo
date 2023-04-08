@@ -38,8 +38,13 @@
 /*****************media quiery*************************/
 @media (max-width: 400.98px) {
     .carousel-caption{
-        width: 60% !important;
+        width: 75% !important;
         margin: 0 !important;
+        height: 20% !important;
+        position: absolute;
+        top: 20% !important  ;
+        left: 25% !important;
+        transform: translate(-20%, -25%) !important;
     }
     .our-vision-wrapper{
         padding: 10px;
