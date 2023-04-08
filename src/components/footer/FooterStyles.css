@@ -51,6 +51,7 @@
     border: 1px solid #fff;
 }
 .footer-wrapper .row input::placeholder{
+    padding: 2px;
     color: #fff;
     letter-spacing: .2em;
     background-color: #272727;
@@ -73,7 +74,10 @@
 }
 
 /*****************media quiery*************************/
-@media (max-width: 432.98px) {
+@media (max-width: 400.98px) {
+    .row{
+        padding: 0 !important;
+    }
     .row input{
         width: 100% !important;
         margin: 0;
@@ -92,5 +96,11 @@
         align-items: center;
         justify-content: center !important;
     }
-
+    .footer-wrapper .row input::placeholder{
+        padding: 2px;
+        color: #fff;
+        letter-spacing: .2em;
+        background-color: #272727;
+        font-size: 12px;
+    }
 }
