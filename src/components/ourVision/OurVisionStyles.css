@@ -37,7 +37,7 @@
 
 /*****************media quiery*************************/
 @media (max-width: 400.98px) {
-    .carousel-caption{
+    .our-vision-wrapper .carousel-caption{
         width: 75% !important;
         margin: 0 !important;
         height: 20% !important;
