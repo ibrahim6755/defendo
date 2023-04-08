@@ -54,7 +54,10 @@ button{
     letter-spacing: .1em;
 }
 
-
+.text-decor{
+    text-decoration: none;
+    color: #191817;
+}
 /*********************************/
   @media (max-width: 400px){
     .contact-us-wrapper input{

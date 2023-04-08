@@ -11,7 +11,7 @@ function ContactUs() {
             <div className="contact-us-wrapper">
                 <h5 className='heading text-uppercase text-center my-5'>contact us</h5>
                 <h5 className='question text-uppercase fw-bold'>how can you contact us?</h5>
-                <p className='answer my-3'>Email us at contact@shoprusset.com</p>
+                <Link className='text-decor' to="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=XBcJlCGHkNnKxhpvKTrQVcTjBTkZJlnWCgDzDwKWKdgJcZxcdzWThLRRwrVflTnNDfJfBDLPbVFNvQXQ"><p>Email: ddefendo@gmail.com</p></Link>
                   <p className='answer'>We are confident that you'll find the answers you are looking for from our <Link to="/faq">FAQs page</Link>, however if you do need to speak to us please email contact@shoprusset.com. Please only send 1
                     email with your query. If we receive multiple emails from you, your query will go to the back of the queue and will therefore take a significant amount of time longer to get back to you.</p>
                 <h5 className='question text-uppercase fw-bold '>what information do we need to help you?</h5>
