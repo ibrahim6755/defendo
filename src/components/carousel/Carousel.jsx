@@ -30,7 +30,7 @@ export default function Carousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={carousel2} className="d-block w-100" alt="" />
+                        <img src={carousel3} className="d-block w-100" alt="" />
                         <div className="overlay"></div>
                         <div className="carousel-caption d-md-block">
                             <Link to="/new-releases" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
@@ -39,7 +39,7 @@ export default function Carousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={carousel3} className="d-block w-100" alt="" />
+                        <img src={carousel2} className="d-block w-100" alt="" />
                         <div className="overlay"></div>
                         <div className="carousel-caption d-md-block">
                             <Link to="/new-releases" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
