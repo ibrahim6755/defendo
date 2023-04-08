@@ -19,20 +19,15 @@ function CustomerReview() {
     const [currentReview, setCurrentReview] = useState(0);
     const [currentCustomer, setCurrentCustomer] = useState(0)
 
-    const handlePreviousReview = () => {
-        setCurrentReview((currentReview - 1 + reviews.length) % reviews.length);
-    };
-
-    const handleNextReview = () => {
-        setCurrentReview((currentReview + 1) % reviews.length);
-    };
 
     const handlePreviousCustomer = () => {
         setCurrentCustomer((currentCustomer - 1 + customers.length) % customers.length);
+        setCurrentReview((currentReview - 1 + reviews.length) % reviews.length);
     };
 
     const handleNextCustomer = () => {
         setCurrentCustomer((currentCustomer + 1) % customers.length);
+        setCurrentReview((currentReview + 1) % reviews.length);
     };
 
     useEffect(() => {
@@ -86,8 +81,8 @@ function CustomerReview() {
                         </div>
                         <div className="msg"><p>{reviews[currentReview]}</p></div>
                         <div className="d-flex justify-content-between mt-4">
-                            <button onClick={handlePreviousReview && handlePreviousCustomer}>Previous</button>
-                            <button onClick={handleNextReview && handleNextCustomer}>Next</button>
+                            <button onClick={handlePreviousCustomer}>Previous</button>
+                            <button onClick={ handleNextCustomer}>Next</button>
                         </div>
                     </div>
                 </div>
