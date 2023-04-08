@@ -20,7 +20,7 @@ function ContactUs() {
                     <p>Please note that dispatch time from our warehouse is unaffected. If you experience unusual delay in delivery, it might be due to incomplete shipping details or stock discrepancies. Please get in touch with us in that case so we will try our best to offer a solution. </p>
                     <p>Warehouse: Flat no 9, Bewal Apartments, G-9 Markaz Islamabad.</p>
                     <p>WhatsApp: 0307-1555587</p>
-                    <Link to="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJNtfChzHDNGStzWzsbqpshgtmFvZrDwgMHTbBfZRnjfndZwmZGrtfkCtzlWCNdWtTLCJhg"><p>Email: ddefendo@gmail.com</p></Link>
+                    <Link to="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=XBcJlCGHkNnKxhpvKTrQVcTjBTkZJlnWCgDzDwKWKdgJcZxcdzWThLRRwrVflTnNDfJfBDLPbVFNvQXQ"><p>Email: ddefendo@gmail.com</p></Link>
                     <input className='p-2 me-2 id' type="text" placeholder='Your name'/><input className='p-2 ms-4 id email' type="email"placeholder='Your email' /> <br />
                     <textarea className='message my-2 custom' name="Your message" cols="100" rows="8">Your Message</textarea> <br />
                     <button className='p-2'>Send message</button>
