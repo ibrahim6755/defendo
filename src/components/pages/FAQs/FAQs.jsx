@@ -5,7 +5,7 @@ function FAQs() {
     return (
         <div className="faqs-wrapper p-5">
             <div className="row mb-4">
-                <h5 className='text-center text-uppercase fw-bold'>frequently asked questions</h5>
+                <h5 className='text-center fw-bold'>Frequently Asked Questions</h5>
             </div>
             <div className="row ">
                 <div className="accordion accordion-flush w-75" id="accordionFlushExample">
