@@ -13,7 +13,7 @@ function OurVision() {
                         <div className="carousel-caption d-md-block">
                             <h5 className='mb-3'> THE VISION</h5>
                             <p>
-                                ‘At DEFENDO, We are passionate about helping men express theorie Unique style and personality through high quality,stylish accessories.
+                                At DEFENDO, We are passionate about helping men express theorie Unique style and personality through high quality,stylish accessories.
 
                                 Our vision is to go to the destination for men who want to elavte their style and stand out from the crowd.
 

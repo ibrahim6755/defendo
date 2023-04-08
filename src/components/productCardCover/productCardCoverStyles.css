@@ -1,12 +1,12 @@
-.img-containe{
+.img-container{
     display: inline-block;
 }
 .image-container .zoom-in img{
     transform: scale(1);
-    transition: 0.5s ease-in-out;
+    transition: 3s ease-in-out;
 }
 .image-container .zoom-in:hover img{
-    transform: scale(1.5);
+    transform: scale(2);
 }
 .product-card-cover-wrapper .card .cover-pic img {
     position: relative;
@@ -16,7 +16,7 @@
     max-width: 95%;
     height: 480px;
     overflow:clip;
-    transition: transform 2s ease-out;
+    transition: transform 4s ease-out;
     background-size: cover;
     box-sizing: border-box !important;
 }
