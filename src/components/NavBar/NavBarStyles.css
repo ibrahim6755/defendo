@@ -185,14 +185,24 @@
 @media (max-width: 575.98px) {
     .left-nav {
         width: 20%;
+        padding: 0 !important;
     }
 
     .mid-nav {
-        width: 40%;
+        width: 20%;
+        padding: 0 12px !important;
+    }
+    .mid-nav h5{
+        margin: 0 !important;
     }
 
     .right-nav ul {
-        display: none;
+        display: flex !important;
+        align-items: center !important;
+        margin: 0 0px !important;
+    }
+    .right-nav ul li{
+        margin: 0  !important;
     }
 
     .right-nav .dropdown {

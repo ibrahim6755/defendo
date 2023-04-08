@@ -4,7 +4,8 @@ import {Link} from 'react-router-dom'
 function NavBar() {
     return (
         <div className="nav-bar-wrapper sticky-top bg-body-tertiary p-1">
-            <div className="col-md-4  left-nav">
+           <div className="row">
+           <div className="col-md-4  left-nav">
                 <ul className=" mb-md-0 m-0">
                     <li className='list-style-none'>
                         <Link className="btn  d-md-block text-decor" data-bs-toggle="offcanvas" to="#offcanvasExample" role="button" aria-controls="offcanvasExample" >
@@ -29,7 +30,7 @@ function NavBar() {
                             <i className="bi bi-person fs-3 fw-bold text-dark"></i>
                         </Link>
                     </li>
-                    <li className='list-style-none mx-2 search'>
+                    <li className='list-style-none d-none d-sm-block mx-2 search'>
                         <Link className='text-decor' aria-current="page" to="#">
                             <i className="bi bi-search fs-5 fw-bold text-dark"></i>
                         </Link>
@@ -51,43 +52,9 @@ function NavBar() {
                         </div>
                     </div>
                 </ul>
-                <div className="dropdown d-none">
-                    <button className="dropdown-toggle fs-3 " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    
-                    </button>
-                    <ul className="dropdown-menu">
-                        <li className='list-style-none mx-2 person'>
-                            <Link className='text-decor' aria-current="page" to="#">
-                                <i className="bi bi-person fs-3 fw-bold text-dark"><span className='ms-1'>Account</span></i>
-                            </Link>
-                        </li>
-                        <li className='list-style-none mx-2 search'>
-                            <Link className='text-decor' aria-current="page" to="#">
-                                <i className="bi bi-search fs-5 fw-bold text-dark"><span className='ms-1'>Search</span></i>
-                            </Link>
-                        </li>
-                        <li className='list-style-none mx-2 cart '>
-                            <button className="btn p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-                                <i className="bi bi-bag fs-5 fw-bold text-dark "><span className='ms-2'>Cart</span></i>
-                            </button>
-
-                            <div className="offcanvas offcanvas-start" data-bs-backdrop="static" tabIndex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-                                <div className="offcanvas-header pb-1">
-                                    <h2 className="offcanvas-title" id="staticBackdropLabel">cart</h2>
-                                    <button type="button" className="btn-close fs-6" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <hr />
-                                <div className="offcanvas-body">
-                                    <div className=' body-text text-center'>
-                                        your cart is empty
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
             </div>
 
+           </div>
 
 
 

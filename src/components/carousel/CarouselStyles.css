@@ -37,12 +37,12 @@
 
 /*********************************/
 @media (max-width: 330px) {
-  .carousel-caption  {
+  .carousel-wrapper .carousel-caption  {
     margin: 16px 16px !important;
     width: 75% !important;
   }
 
-  .carousel-caption .btn {
+  .carousel-wrapper .carousel-caption .btn {
     padding: 2px 2px ;
     font-size: 12px !important;
     margin: 12px 0 !important;
@@ -57,7 +57,7 @@
 
 }
 @media (max-width: 400.98px){
-.carousel-caption {
+.carousel-wrapper .carousel-caption {
     width: 70% !important;
     margin: 0 !important;
 }
