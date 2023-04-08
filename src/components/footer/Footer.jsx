@@ -5,7 +5,7 @@ import creditCard from '../../imgs/credit-card.png'
 import {Link} from 'react-router-dom'
 function Footer() {
     return (
-        <div className="footer-wrapper mt-5">
+        <div className="footer-wrapper mt-5 p-5">
             <div className="row p-5 align-items-start ">
                 <div className="col-md-4 text-start">
                     <p className='text-uppercase'>company</p>
