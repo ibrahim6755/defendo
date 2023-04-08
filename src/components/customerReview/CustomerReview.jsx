@@ -19,6 +19,22 @@ function CustomerReview() {
     const [currentReview, setCurrentReview] = useState(0);
     const [currentCustomer, setCurrentCustomer] = useState(0)
 
+    const handlePreviousReview = () => {
+        setCurrentReview((currentReview - 1 + reviews.length) % reviews.length);
+    };
+
+    const handleNextReview = () => {
+        setCurrentReview((currentReview + 1) % reviews.length);
+    };
+
+    const handlePreviousCustomer = () => {
+        setCurrentCustomer((currentCustomer - 1 + customers.length) % customers.length);
+    };
+
+    const handleNextCustomer = () => {
+        setCurrentCustomer((currentCustomer + 1) % customers.length);
+    };
+
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentCustomer((currentCustomer + 1) % customers.length)
@@ -26,6 +42,8 @@ function CustomerReview() {
         }, 3000);
         return () => clearInterval(interval);
     }, [currentReview, reviews, customers, currentCustomer]);
+
+
 
     return (
         <div className="customer-review-wrapper">
@@ -49,7 +67,7 @@ function CustomerReview() {
                                 </h5>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
                 <div className="row mt-3">
@@ -59,18 +77,24 @@ function CustomerReview() {
                                 <p className="fw-bold">{customers[currentCustomer]}</p>
                             </div>
                             <div className="icons b mx-2">
-                                        <img className="star" src={reviewStar} alt="" />
-                                        <img className="star" src={reviewStar} alt="" />
-                                        <img className="star" src={reviewStar} alt="" />
-                                        <img className="star" src={reviewStar} alt="" />
-                                        <img className="star" src={reviewStar} alt="" />
-                                    </div>
+                                <img className="star" src={reviewStar} alt="" />
+                                <img className="star" src={reviewStar} alt="" />
+                                <img className="star" src={reviewStar} alt="" />
+                                <img className="star" src={reviewStar} alt="" />
+                                <img className="star" src={reviewStar} alt="" />
+                            </div>
                         </div>
                         <div className="msg"><p>{reviews[currentReview]}</p></div>
+                        <div className="d-flex justify-content-between mt-4">
+                            <button onClick={handlePreviousReview && handlePreviousCustomer}>Previous</button>
+                            <button onClick={handleNextReview && handleNextCustomer}>Next</button>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
+
     )
 }
 

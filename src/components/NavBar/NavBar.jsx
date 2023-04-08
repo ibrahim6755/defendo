@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 function NavBar() {
     return (
         <div className="nav-bar-wrapper sticky-top bg-body-tertiary p-1">
-           <div className="row">
+           <div className="row w-100">
            <div className="col-md-4  left-nav">
                 <ul className=" mb-md-0 m-0">
                     <li className='list-style-none'>
