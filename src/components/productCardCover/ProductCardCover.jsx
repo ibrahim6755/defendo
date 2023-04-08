@@ -1,6 +1,6 @@
 import React from 'react'
 import './productCardCoverStyles.css'
-import coverPic from '../../imgs/justDroppedModel.jpeg'
+import pendantsmain from '../../imgs/pendantsmain.JPG'
 import {Link} from 'react-router-dom'
 
 function ProductCardCover() {
@@ -11,7 +11,7 @@ function ProductCardCover() {
                 <div className="img-container">
                <div className="zoom-in">
                <div className="cover-pic">
-                    <img src={coverPic} alt=""/>
+                    <img src={pendantsmain} alt=""/>
                     </div>
                </div>
                 </div>

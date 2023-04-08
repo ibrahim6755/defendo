@@ -1,6 +1,6 @@
 import React from 'react'
 import './OurVisionStyles.css'
-import ourvisionImg from '../../imgs/vision.jpeg'
+import visionMain from '../../imgs/visionmainpage.jpg'
 
 function OurVision() {
     return (
@@ -8,7 +8,7 @@ function OurVision() {
             <div id="carouselExampleCaptions" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={ourvisionImg} className="d-block w-100" alt=""/>
+                        <img src={visionMain} className="d-block w-100" alt=""/>
                         <div className="overlay"></div>
                         <div className="carousel-caption d-md-block">
                             <h5 className='mb-3'> THE VISION</h5>
