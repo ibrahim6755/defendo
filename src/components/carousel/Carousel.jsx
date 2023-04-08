@@ -25,7 +25,7 @@ export default function Carousel() {
                     <div className="overlay"></div>
                     <div className="carousel-caption d-md-block">
                             <Link to="/new-releases" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
-                            <Link to="" className="btn btn-light text-uppercase text-dark m-3">925 silver </Link>
+                            <Link to="" className="btn btn-light text-uppercase text-dark m-3">limited drops </Link>
 
                         </div>
                     </div>
@@ -34,7 +34,7 @@ export default function Carousel() {
                         <div className="overlay"></div>
                         <div className="carousel-caption d-md-block">
                             <Link to="/new-releases" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
-                            <Link to="" className="btn btn-light text-uppercase text-dark m-3">925 silver </Link>
+                            <Link to="" className="btn btn-light text-uppercase text-dark m-3">limited drops</Link>
 
                         </div>
                     </div>
@@ -43,7 +43,7 @@ export default function Carousel() {
                         <div className="overlay"></div>
                         <div className="carousel-caption d-md-block">
                             <Link to="/new-releases" className="btn btn-light text-uppercase text-dark m-3">Shop new releases</Link>
-                            <Link to="" className="btn btn-light text-uppercase text-dark m-3">925 silver </Link>
+                            <Link to="" className="btn btn-light text-uppercase text-dark m-3">limited drops</Link>
 
                         </div>
                     </div>
