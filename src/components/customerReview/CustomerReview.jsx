@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import './CustomerReviewStyles.css'
 import reviewStar from '../../imgs/reviewStar.png'
+import upArrow from '../../imgs/up-arrow.png'
+import downArrow from '../../imgs/down-arrow.png'
 
 function CustomerReview() {
     const [reviews] = useState([
@@ -47,7 +49,7 @@ function CustomerReview() {
                     <div className="col-md-12">
                         <div className="customer-says">
                             <div className="left px-3 p-1">
-                                <h5 className=" w-100 text-center"> See What Our Customer Have To Say</h5>
+                                <h5 className=" w-100 text-center m-0 p-1"> See What Our Customer Have To Say</h5>
                             </div>
                             <div className="right">
                                 <h5 className="m-0 p-0 me-1">
@@ -80,9 +82,9 @@ function CustomerReview() {
                             </div>
                         </div>
                         <div className="msg"><p>{reviews[currentReview]}</p></div>
-                        <div className="d-flex justify-content-between mt-4">
-                            <button onClick={handlePreviousCustomer}>Previous</button>
-                            <button onClick={ handleNextCustomer}>Next</button>
+                        <div className="d-flex justify-content-between mt-4 arrows">
+                            <button  className="bg-white btn" onClick={handlePreviousCustomer}><img src={upArrow} alt="" /></button>
+                            <button className="bg-white " onClick={ handleNextCustomer}> <img src={downArrow} alt="" /> </button>
                         </div>
                     </div>
                 </div>

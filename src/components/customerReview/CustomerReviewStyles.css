@@ -52,8 +52,18 @@
     margin: 0 2px;
 
 }
-
-
+.arrows .btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.arrows button{
+    display: flex;
+    align-items: center;
+}
+.arrows button img{
+    height: 24px;
+}
 
 /*****************media quiery*************************/
 @media (max-width: 432.98px) {
