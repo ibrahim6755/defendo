@@ -1,6 +1,6 @@
 import React from 'react'
 import ProductCard from '../../components/productCard/ProductCard';
-import SortingNabar from '../sortingnavbar/SortingNabar';
+import SortingNabar from '../sortingnavbar/SortingNavbar';
 
 function Grid4() {
     return (

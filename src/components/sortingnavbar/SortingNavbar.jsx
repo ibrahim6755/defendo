@@ -1,8 +1,9 @@
 import React from 'react'
+import './SortingNavbarStyles.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
 
-function SortingNabar() {
+function SortingNavbar() {
     
     const [fillWidth, setFillWidth] = useState(0);
 
@@ -49,14 +50,9 @@ function SortingNabar() {
                                     <span>sort</span>
                                 </button>
                                 <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item text-uppercase" to="#">Features</Link></li>
-                                    <li><Link className="dropdown-item text-uppercase" to="#"> best selling</Link></li>
                                     <li><Link className="dropdown-item text-uppercase" to="#">  alphabetically, a-z</Link></li>
                                     <li><Link className="dropdown-item text-uppercase" to="#">alphabetically, z-a</Link></li>
-                                    <li><Link className="dropdown-item text-uppercase" to="#">price,low to high</Link></li>
-                                    <li><Link className="dropdown-item text-uppercase" to="#">price,high to low</Link></li>
-                                    <li><Link className="dropdown-item text-uppercase" to="#">date,old to new</Link></li>
-                                    <li><Link className="dropdown-item text-uppercase" to="#">date,new to old</Link></li>
+                                  
                                 </ul>
                             </div>
                         </div>
@@ -117,4 +113,4 @@ function SortingNabar() {
   )
 }
 
-export default SortingNabar
+export default SortingNavbar

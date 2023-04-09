@@ -1,0 +1,16 @@
+/*****************media quiery*************************/
+@media (max-width: 400.98px) {
+    .sorting-navbar .left-nav{
+        padding: 0 18px !important;
+    }
+    .sorting-navbar .right-nav .sort{
+        display: none !important;
+    }
+
+    .sorting-navbar .filter .price-range{
+        display: none !important;
+    }
+    .sorting-navbar .filter .offcanvas-body ul{
+        display: block !important;
+    }
+}

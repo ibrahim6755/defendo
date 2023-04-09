@@ -1,7 +1,7 @@
 import React from 'react'
 import './NewReleasesStyles.css'
 import ProductCard from '../../productCard/ProductCard';
-import SortingNabar from '../../sortingnavbar/SortingNabar';
+import SortingNabar from '../../sortingnavbar/SortingNavbar';
 
 function NewReleases() {
 
