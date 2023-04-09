@@ -11,7 +11,7 @@ function OurInstaReviews() {
     return (
         <div className="our-insta-reviews-wrapper py-2">
             <div className="row">
-                <h5 className='text-center p-2'>CATCH UP WITH US ON INSTAGRAM <span>⚡️</span></h5>
+                <h5 className='text-center p-4'>CATCH UP WITH US ON INSTAGRAM <span>⚡️</span></h5>
                 <div className="col-md-4">
                     <div className="row row-imgs py-4 px-3">
                         <div className="col-md-6 p-0">
