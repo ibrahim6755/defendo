@@ -9,7 +9,7 @@ function ProductCard() {
     return (
         <div className="product-card-wrapper">
             <div className="card border-0">
-                <img src={cardimg} className="card-img-top" alt="" />
+                <Link to="/product=description"><img src={cardimg} className="card-img-top" alt="" /></Link>
                 <div className="card-body">
                     <h5 className="card-title text-center">44 CALIBER RING</h5>
                     <div className='mt-2 about'>

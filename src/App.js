@@ -9,6 +9,7 @@ import NewReleases from './components/pages/NewReleases/NewReleases';
 import Grid4 from './components/grid/Grid4';
 import Chains from './components/pages/Chains/Chains';
 import FAQs from './components/pages/FAQs/FAQs';
+import ProductDescription from './components/pages/Product description/ProductDescription';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/grid4*4' element={<Grid4/>} />
         <Route path='/chains' element={<Chains/>} />
         <Route path='/faq' element={<FAQs/>} />
+        <Route path='/product=description' element={<ProductDescription/>} />
       </Routes>
       <Footer />
     </Router>
