@@ -165,6 +165,9 @@
     .product-description-wrapper .row .right-col h5 {
         text-align: center !important;
     }
+    .product-description-wrapper .row .right-col .ring-color {
+        display: none;
+    }
 
     .product-description-wrapper .row .right-col h5 {
         text-align: center !important;
