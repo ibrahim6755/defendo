@@ -61,7 +61,25 @@
     display: flex;
     width: 12px;
 }
+.product-description-wrapper .row .right-col .add-cart {
+    border: 1px solid #c9c9c9;
+    font-size: 12px ;
+    color: #4e4e4e;
+}
+.product-description-wrapper .row .right-col .btn {
+    border-radius: 0;
+    width: 370px;
+}
+.product-description-wrapper .row .right-col .buy-now {
+    border: 1px solid #c9c9c9;
+    font-size: 12px ;
+    color: #fff;
+    background: #000;
+}
 
+.w-10{
+    width: 10px;
+}
 
 
 

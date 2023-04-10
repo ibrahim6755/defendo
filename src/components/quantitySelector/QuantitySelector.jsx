@@ -3,8 +3,6 @@ import './QuantitySelectorStyles.css'
 
 function QuantitySelector() {
     const [state, setState] = useState(0)
-    const [increment, setIncrement] = useState()
-    const [decrement, setDecrement] = useState()
 
 
     const handleIncrement = () => {
