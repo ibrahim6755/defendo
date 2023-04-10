@@ -10,8 +10,8 @@ import QuantitySelector from '../../quantitySelector/QuantitySelector'
 function ProductDescription() {
     return (
         <div className="product-description-wrapper">
-            <div className="row p-2">
-                <div className="col-md-3 left-col">
+            <div className="row p-3">
+                <div className="col-md-3 left-col d-none d-md-block">
                     <div className="div">
                         <a href="#silver"><img className=' d-block' src={productDesc1} alt="" /></a>
                         <a href="#golden"><img className=' d-block' src={productDesc2} alt="" /></a>
@@ -39,7 +39,7 @@ function ProductDescription() {
                     <hr />
                     <div className="ring-size">
                         <p>Ring Size:</p>
-                        <div className="btn-group dropstart">
+                        <div className="btn-group dropdown">
                             <button type="button" className="btn  dropdown-toggle w-100 p-0" data-bs-toggle="dropdown" aria-expanded="false">
                                 <h5 className='p-2'>16/ US 6</h5>
                             </button>

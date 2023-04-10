@@ -81,11 +81,6 @@
 }
 
 
-
-
-
-
-
 .product-description-wrapper h5 {
     font-size: 16px;
     margin: 0;
@@ -141,5 +136,29 @@
 .product-card-wrapper .icons .star {
     width: 10px;
     margin: 0 2px;
+
+}
+
+
+
+/*****************media quiery*************************/
+@media (max-width: 400.98px) {
+    .product-description-wrapper .row .mid-col a img {
+        width: 80%;
+        margin-left: 30px;
+    }
+    
+    .product-description-wrapper .row .right-col .dropstart{
+        display: none;
+        
+    }
+    .product-description-wrapper .row .right-col{
+        padding: 24px;
+        
+    }
+    .product-description-wrapper .row .right-col .dropdown{
+        display: block !important;
+        
+    }
 
 }
