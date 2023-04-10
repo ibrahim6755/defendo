@@ -2,6 +2,7 @@ import React from 'react'
 import './ProductDescriptionStyles.css'
 import { Link } from 'react-router-dom'
 import productDesc1 from '../../../imgs/product-desc-1.jpeg'
+import perl6mm from '../../../imgs/6mm-chain.jpg'
 import productDesc2 from '../../../imgs/product-desc-2.jpeg'
 
 import reviewStar from '../../../imgs/reviewStar.png'
@@ -29,7 +30,7 @@ function ProductDescription() {
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                
+
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -88,13 +89,27 @@ function ProductDescription() {
                         </div>
                     </div>
                     <div className="quantity-selector mt-3 py-2">
-                            <QuantitySelector />
-                        </div>
-                        <h5 className='p-2 add-cart text-center text-uppercase p-2 my-2 btn'>add to cart</h5>
-                        <h5 className='p-2 buy-now text-center text-uppercase p-2 my-1 btn'>buy it now</h5>
-                        <div className="discount">
+                        <QuantitySelector />
+                    </div>
+                    <h5 className='p-2 add-cart text-center text-uppercase p-2 my-2 btn'>add to cart</h5>
+                    <h5 className='p-2 buy-now text-center text-uppercase p-2 my-1 btn'>buy it now</h5>
+                    <div className="discount">
                         <p className='text-center mt-5'>Get a discount! <br /> Buy these products together and get a <br /> discount!</p>
+                        <div class="card w-50" >
+                            <img src={perl6mm} class="card-img-top" alt="..."/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pearl 6MM Chain</h5>
+                                    <p class="card-text text-decoration-line-through">1,800.00 PKR</p>
+                                </div>
                         </div>
+                        <div class="card w-50" >
+                            <img src={perl6mm} class="card-img-top" alt="..."/>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pearl 6MM Chain</h5>
+                                    <p class="card-text text-decoration-line-through">1,800.00 PKR</p>
+                                </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

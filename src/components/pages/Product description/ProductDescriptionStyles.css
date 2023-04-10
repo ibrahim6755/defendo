@@ -90,6 +90,13 @@
     font-size: 12px;
     letter-spacing: 0.1rem;
 }
+.product-description-wrapper .row .right-col .discount .card {
+    margin: 0 100px;
+}
+.product-description-wrapper .row .right-col .discount .card-body h5 {
+    font-size: 13px;
+    font-weight: 700;
+}
 .w-10 {
     width: 10px;
 }
