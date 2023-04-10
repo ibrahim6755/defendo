@@ -5,6 +5,7 @@ import productDesc1 from '../../../imgs/product-desc-1.jpeg'
 import productDesc2 from '../../../imgs/product-desc-2.jpeg'
 
 import reviewStar from '../../../imgs/reviewStar.png'
+import QuantitySelector from '../../quantitySelector/QuantitySelector'
 
 function ProductDescription() {
     return (
@@ -55,6 +56,9 @@ function ProductDescription() {
                     <div className="color-btn">
                         <button className='bg-warning p-3 me-3'></button>
                         <button className='bg-secondary p-3 me-3'></button>
+                    </div>
+                    <div className="quantity-selector mt-3 p-2">
+                        <QuantitySelector/>
                     </div>
                     
                     </div>
