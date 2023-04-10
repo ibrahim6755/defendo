@@ -22,7 +22,7 @@ function ProductDescription() {
                     <Link to=""><img id='golden' className='my-4 d-block' src={productDesc2} alt="" /></Link>
 
                 </div>
-                <div className="mob-col col-md-4 ">
+                <div className="mob-col col-md-4 d-sm-none">
 
                     <div className="carousel">
                         <div id="carouselExampleIndicators" class="carousel slide">
@@ -86,12 +86,12 @@ function ProductDescription() {
                             <a href="#golden"><button className='bg-warning p-3 me-3 w-10'></button></a>
                             <a href="#silver"><button className='bg-secondary p-3 me-3 w-10'></button></a>
                         </div>
-                        <div className="quantity-selector mt-3 py-2">
+                    </div>
+                    <div className="quantity-selector mt-3 py-2">
                             <QuantitySelector />
                         </div>
                         <h5 className='p-2 add-cart text-center text-uppercase p-2 my-2 btn'>add to cart</h5>
                         <h5 className='p-2 buy-now text-center text-uppercase p-2 my-1 btn'>buy it now</h5>
-                    </div>
                 </div>
             </div>
         </div>
