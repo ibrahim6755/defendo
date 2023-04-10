@@ -86,7 +86,10 @@
     color: #fff;
     background: #000;
 }
-
+.product-description-wrapper .row .right-col .discount p {
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+}
 .w-10 {
     width: 10px;
 }

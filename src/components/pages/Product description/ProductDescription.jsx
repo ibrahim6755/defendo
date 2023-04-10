@@ -92,6 +92,10 @@ function ProductDescription() {
                         </div>
                         <h5 className='p-2 add-cart text-center text-uppercase p-2 my-2 btn'>add to cart</h5>
                         <h5 className='p-2 buy-now text-center text-uppercase p-2 my-1 btn'>buy it now</h5>
+                        <div className="discount">
+                        <p className='text-center mt-5'>Get a discount! <br /> Buy these products together and get a <br /> discount!</p>
+                        </div>
+
                 </div>
             </div>
         </div>
