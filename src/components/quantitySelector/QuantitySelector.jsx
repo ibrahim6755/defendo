@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './QuantitySelectorStyles.css'
 
 function QuantitySelector() {
-    const [state, setState] = useState(0)
+    const [state, setState] = useState(1)
 
 
     const handleIncrement = () => {

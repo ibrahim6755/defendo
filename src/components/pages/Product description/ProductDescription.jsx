@@ -60,8 +60,8 @@ function ProductDescription() {
                         <div className="quantity-selector mt-3 py-2">
                             <QuantitySelector />
                         </div>
-                        <h5 className='p-2 add-cart text-center text-uppercase p-3 my-2 btn'>add to cart</h5>
-                        <h5 className='p-2 buy-now text-center text-uppercase p-3 my-1 btn'>buy it now</h5>
+                        <h5 className='p-2 add-cart text-center text-uppercase p-2 my-2 btn'>add to cart</h5>
+                        <h5 className='p-2 buy-now text-center text-uppercase p-2 my-1 btn'>buy it now</h5>
                     </div>
                 </div>
             </div>
