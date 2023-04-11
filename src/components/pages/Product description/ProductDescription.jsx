@@ -10,11 +10,11 @@ import QuantitySelector from '../../quantitySelector/QuantitySelector'
 
 function ProductDescription() {
     return (
-        <div className="product-description-wrapper">
-            <div className="row p-3">
+        <div className="product-description-wrapper p-4">
+            <div className="row">
                 <div className="col-md-3 left-col d-none d-md-block">
                     <div className="div">
-                        <a href="#silver"><img className=' d-block' src={productDesc1} alt="" /></a>
+                        <a href="#silver"><img className=' d-block mb-4' src={productDesc1} alt="" /></a>
                         <a href="#golden"><img className=' d-block' src={productDesc2} alt="" /></a>
                     </div>
                 </div>

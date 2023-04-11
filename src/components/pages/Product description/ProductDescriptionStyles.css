@@ -1,10 +1,7 @@
 .product-description-wrapper .row {
     display: flex;
-    align-items: center;
-}
+    align-items: flex-start;
 
-.product-description-wrapper .row .left-col {
-    height: 100ch;
 }
 
 .product-description-wrapper .row .left-col a {
@@ -13,10 +10,13 @@
     justify-content: flex-end;
     margin: 0 50px;
 }
+.product-description-wrapper .row .left-col .div {
+    margin: 24px 0 ;
+}
 
 .product-description-wrapper .row .left-col a img {
     width: 90px;
-    margin: 14px 19px;
+    margin: 0 19px;
 }
 
 .product-description-wrapper .row .mid-col a img {
@@ -25,8 +25,8 @@
 
 
 .product-description-wrapper .row .right-col {
-    height: 100ch;
     padding: 10px 90px;
+    margin: 12px 0;
 }
 
 .product-description-wrapper .row .right-col .ring-size h5 {
@@ -86,17 +86,21 @@
     color: #fff;
     background: #000;
 }
+
 .product-description-wrapper .row .right-col .discount p {
     font-size: 12px;
     letter-spacing: 0.1rem;
 }
+
 .product-description-wrapper .row .right-col .discount .card {
     margin: 0 100px;
 }
+
 .product-description-wrapper .row .right-col .discount .card-body h5 {
     font-size: 13px;
     font-weight: 700;
 }
+
 .w-10 {
     width: 10px;
 }
@@ -168,6 +172,7 @@
         width: 80%;
         margin-left: 30px;
     }
+
     .product-description-wrapper .row .mid-col .mob-col {
         display: block !important;
     }
@@ -175,6 +180,7 @@
     .product-description-wrapper .row .right-col h5 {
         text-align: center !important;
     }
+
     .product-description-wrapper .row .right-col .ring-color {
         display: none;
     }
@@ -193,7 +199,7 @@
         text-align: center !important;
         color: #292929;
         margin: 14px 0 !important;
-    font-size: 18px;
+        font-size: 18px;
     }
 
     .product-description-wrapper .row .right-col .dropstart {
