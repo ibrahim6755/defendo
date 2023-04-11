@@ -166,7 +166,7 @@
 
 
 
-/*****************media quiery*************************/
+/*****************media query*************************/
 @media (max-width: 400.98px) {
     .product-description-wrapper .row .mid-col a img {
         width: 80%;
@@ -208,7 +208,7 @@
     }
 
     .product-description-wrapper .row .right-col {
-        padding: 24px;
+        padding: 0px;
 
     }
 
